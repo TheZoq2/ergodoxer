@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name protonc)(type KiCad)(uri ${LIB_DIR}/qmk_hardware/kicad/proton_c)(options "")(descr ""))
+)
