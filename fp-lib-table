@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name protonc)(type KiCad)(uri ${LIB_DIR}/qmk_hardware/kicad/proton_c)(options "")(descr ""))
+  (lib (name switches)(type KiCad)(uri /home/frans/Documents/ergodox/ergodoxer/switches.pretty)(options "")(descr ""))
 )
