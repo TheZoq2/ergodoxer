@@ -1005,28 +1005,6 @@ F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 4950 5750 50  
 	1    4950 5750
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Switch:SW_Push SW36
-U 1 1 5C72915C
-P 5450 5600
-F 0 "SW36" H 5450 5885 50  0000 C CNN
-F 1 "SW_Push" H 5450 5794 50  0000 C CNN
-F 2 "switches:SW_Cherry_MX_1.00u_PCB_dual" H 5450 5800 50  0001 C CNN
-F 3 "" H 5450 5800 50  0001 C CNN
-	1    5450 5600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Diode:1N4148 D36
-U 1 1 5C729163
-P 5650 5750
-F 0 "D36" H 5650 5850 50  0000 C CNN
-F 1 "1N4148" H 5650 5650 50  0000 C CNN
-F 2 "Diodes_ThroughHole:D_DO-35_SOD27_P7.62mm_Horizontal" H 5650 5575 50  0001 C CNN
-F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 5650 5750 50  0001 C CNN
-	1    5650 5750
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	1450 5900 2150 5900
 Wire Wire Line
@@ -1042,9 +1020,6 @@ Wire Wire Line
 	4250 5900 4950 5900
 Connection ~ 4250 5900
 Wire Wire Line
-	4950 5900 5650 5900
-Connection ~ 4950 5900
-Wire Wire Line
 	3150 4800 3150 5600
 Wire Wire Line
 	1750 4800 1750 5600
@@ -1052,8 +1027,6 @@ Wire Wire Line
 	3850 4800 3850 5600
 Wire Wire Line
 	4550 4800 4550 5600
-Wire Wire Line
-	5250 4800 5250 5600
 Wire Wire Line
 	2450 4800 2450 5600
 Text GLabel 7950 3050 0    50   Input ~ 0
@@ -1109,27 +1082,26 @@ Connection ~ 2450 4800
 Connection ~ 3150 4800
 Connection ~ 3850 4800
 Connection ~ 4550 4800
-Connection ~ 5250 4800
 $Comp
 L Switch:SW_Push SW45
 U 1 1 5C75EE71
-P 4700 6650
-F 0 "SW45" H 4700 6935 50  0000 C CNN
-F 1 "SW_Push" H 4700 6844 50  0000 C CNN
-F 2 "switches:SW_Cherry_MX_1.00u_PCB_dual" H 4700 6850 50  0001 C CNN
-F 3 "" H 4700 6850 50  0001 C CNN
-	1    4700 6650
+P 4700 6800
+F 0 "SW45" H 4700 7085 50  0000 C CNN
+F 1 "SW_Push" H 4700 6994 50  0000 C CNN
+F 2 "switches:SW_Cherry_MX_1.00u_PCB_dual" H 4700 7000 50  0001 C CNN
+F 3 "" H 4700 7000 50  0001 C CNN
+	1    4700 6800
 	1    0    0    -1  
 $EndComp
 $Comp
 L Diode:1N4148 D45
 U 1 1 5C75EE78
-P 4900 6800
-F 0 "D45" H 4900 6900 50  0000 C CNN
-F 1 "1N4148" H 4900 6700 50  0000 C CNN
-F 2 "Diodes_ThroughHole:D_DO-35_SOD27_P7.62mm_Horizontal" H 4900 6625 50  0001 C CNN
-F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 4900 6800 50  0001 C CNN
-	1    4900 6800
+P 4900 6950
+F 0 "D45" H 4900 7050 50  0000 C CNN
+F 1 "1N4148" H 4900 6850 50  0000 C CNN
+F 2 "Diodes_ThroughHole:D_DO-35_SOD27_P7.62mm_Horizontal" H 4900 6775 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 4900 6950 50  0001 C CNN
+	1    4900 6950
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -1501,20 +1473,12 @@ Connection ~ 5200 6800
 Text GLabel 3500 7100 0    50   Input ~ 0
 row6
 Wire Wire Line
-	3500 7100 5600 7100
-Text GLabel 4500 7500 1    50   Input ~ 0
+	3500 7100 4900 7100
+Text GLabel 4500 6550 1    50   Input ~ 0
 column6
-Wire Wire Line
-	4500 7500 4500 7600
 Connection ~ 4500 7600
-Text GLabel 4500 6400 1    50   Input ~ 0
-column8
 Wire Wire Line
-	4500 6400 4500 6650
-Text GLabel 4450 6950 0    50   Input ~ 0
-row5
-Wire Wire Line
-	4450 6950 4900 6950
+	4500 6550 4500 6800
 Wire Wire Line
 	7950 3350 8100 3350
 Text GLabel 10150 4350 2    50   Input ~ 0
@@ -1685,17 +1649,6 @@ F 2 "switches:LED_WS2812B-inverted" H -2750 4400 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H -2700 4325 50  0001 L TNN
 	1    -2800 4700
 	-1   0    0    1   
-$EndComp
-$Comp
-L LED:WS2812B LED36
-U 1 1 5CDF1437
-P -2800 5750
-F 0 "LED36" H -2459 5796 50  0000 L CNN
-F 1 "WS2812B" H -2459 5705 50  0000 L CNN
-F 2 "switches:LED_WS2812B-inverted" H -2750 5450 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H -2700 5375 50  0001 L TNN
-	1    -2800 5750
-	1    0    0    -1  
 $EndComp
 $Comp
 L LED:WS2812B LED37
@@ -2609,8 +2562,6 @@ Wire Wire Line
 Wire Wire Line
 	-4750 5750 -4300 5750
 Wire Wire Line
-	-3700 5750 -3100 5750
-Wire Wire Line
 	-1550 5000 -1550 5200
 Wire Wire Line
 	-1550 5200 -2800 5200
@@ -2652,8 +2603,6 @@ Wire Wire Line
 Connection ~ -2800 5200
 Wire Wire Line
 	-2800 5200 -4000 5200
-Wire Wire Line
-	-2800 5200 -2800 5450
 Wire Wire Line
 	-1550 3900 -1550 4100
 Wire Wire Line
@@ -2707,8 +2656,6 @@ Wire Wire Line
 	-9150 2550 -9150 3600
 Wire Wire Line
 	-9150 3600 -8950 3600
-Wire Wire Line
-	-2500 5750 -1550 5750
 $Comp
 L power:GND #PWR0107
 U 1 1 5DFE1180
@@ -2722,8 +2669,6 @@ F 3 "" H -1550 2000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	-8650 6450 -8650 6050
-Wire Wire Line
-	-2800 6050 -2800 6450
 Wire Wire Line
 	-7450 6050 -7450 6450
 Wire Wire Line
@@ -2742,8 +2687,6 @@ Connection ~ -5050 6450
 Wire Wire Line
 	-5050 6450 -4000 6450
 Connection ~ -4000 6450
-Wire Wire Line
-	-4000 6450 -2800 6450
 Wire Wire Line
 	-4000 6050 -4000 6450
 Text GLabel -700 450  2    50   Input ~ 0
@@ -2935,15 +2878,34 @@ Wire Wire Line
 	3800 6950 3800 7600
 Connection ~ 3800 7600
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0128
 U 1 1 5C754416
-P -2800 6450
-F 0 "#PWR?" H -2800 6200 50  0001 C CNN
-F 1 "GND" V -2795 6322 50  0000 R CNN
-F 2 "" H -2800 6450 50  0001 C CNN
-F 3 "" H -2800 6450 50  0001 C CNN
-	1    -2800 6450
+P -4000 6450
+F 0 "#PWR0128" H -4000 6200 50  0001 C CNN
+F 1 "GND" V -3995 6322 50  0000 R CNN
+F 2 "" H -4000 6450 50  0001 C CNN
+F 3 "" H -4000 6450 50  0001 C CNN
+	1    -4000 6450
 	1    0    0    -1  
 $EndComp
-Connection ~ -2800 6450
+Wire Wire Line
+	-3700 5750 -1550 5750
+Wire Wire Line
+	-8350 3600 -7750 3600
+Wire Wire Line
+	-7150 3600 -6550 3600
+Wire Wire Line
+	-5950 3600 -5350 3600
+Wire Wire Line
+	-4750 3600 -4300 3600
+Wire Wire Line
+	-3700 3600 -3100 3600
+Wire Wire Line
+	-1850 3600 -2500 3600
+Connection ~ 4900 7100
+Wire Wire Line
+	4900 7100 5600 7100
+Wire Wire Line
+	4500 6800 4500 7600
+Connection ~ 4500 6800
 $EndSCHEMATC
