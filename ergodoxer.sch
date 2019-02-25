@@ -15,17 +15,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Switch:SW_Push SW1
-U 1 1 5C71262D
-P 1950 1600
-F 0 "SW1" H 1950 1885 50  0000 C CNN
-F 1 "SW_Push" H 1950 1794 50  0000 C CNN
-F 2 "switches:SW_Cherry_MX_1.00u_PCB_dual" H 1950 1800 50  0001 C CNN
-F 3 "" H 1950 1800 50  0001 C CNN
-	1    1950 1600
-	1    0    0    -1  
-$EndComp
-$Comp
 L Diode:1N4148 D1
 U 1 1 5C7127A7
 P 2150 1750
@@ -40,19 +29,6 @@ Text GLabel 1450 1900 0    50   Input ~ 0
 row1
 Text GLabel 1750 1050 1    50   Input ~ 0
 column1
-Wire Wire Line
-	1750 1050 1750 1600
-$Comp
-L Switch:SW_Push SW7
-U 1 1 5C712B8F
-P 2650 1600
-F 0 "SW7" H 2650 1885 50  0000 C CNN
-F 1 "SW_Push" H 2650 1794 50  0000 C CNN
-F 2 "switches:SW_Cherry_MX_1.00u_PCB_dual" H 2650 1800 50  0001 C CNN
-F 3 "" H 2650 1800 50  0001 C CNN
-	1    2650 1600
-	1    0    0    -1  
-$EndComp
 $Comp
 L Diode:1N4148 D7
 U 1 1 5C712B96
@@ -63,17 +39,6 @@ F 2 "Diodes_ThroughHole:D_DO-35_SOD27_P7.62mm_Horizontal" H 2850 1575 50  0001 C
 F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 2850 1750 50  0001 C CNN
 	1    2850 1750
 	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_Push SW13
-U 1 1 5C712C1E
-P 3350 1600
-F 0 "SW13" H 3350 1885 50  0000 C CNN
-F 1 "SW_Push" H 3350 1794 50  0000 C CNN
-F 2 "switches:SW_Cherry_MX_1.00u_PCB_dual" H 3350 1800 50  0001 C CNN
-F 3 "" H 3350 1800 50  0001 C CNN
-	1    3350 1600
-	1    0    0    -1  
 $EndComp
 $Comp
 L Diode:1N4148 D13
@@ -87,17 +52,6 @@ F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 3550 1750 50  
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW19
-U 1 1 5C712CBE
-P 4050 1600
-F 0 "SW19" H 4050 1885 50  0000 C CNN
-F 1 "SW_Push" H 4050 1794 50  0000 C CNN
-F 2 "switches:SW_Cherry_MX_1.00u_PCB_dual" H 4050 1800 50  0001 C CNN
-F 3 "" H 4050 1800 50  0001 C CNN
-	1    4050 1600
-	1    0    0    -1  
-$EndComp
-$Comp
 L Diode:1N4148 D19
 U 1 1 5C712CC5
 P 4250 1750
@@ -109,17 +63,6 @@ F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 4250 1750 50  
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW25
-U 1 1 5C712DA7
-P 4750 1600
-F 0 "SW25" H 4750 1885 50  0000 C CNN
-F 1 "SW_Push" H 4750 1794 50  0000 C CNN
-F 2 "switches:SW_Cherry_MX_1.00u_PCB_dual" H 4750 1800 50  0001 C CNN
-F 3 "" H 4750 1800 50  0001 C CNN
-	1    4750 1600
-	1    0    0    -1  
-$EndComp
-$Comp
 L Diode:1N4148 D25
 U 1 1 5C712DAE
 P 4950 1750
@@ -129,17 +72,6 @@ F 2 "Diodes_ThroughHole:D_DO-35_SOD27_P7.62mm_Horizontal" H 4950 1575 50  0001 C
 F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 4950 1750 50  0001 C CNN
 	1    4950 1750
 	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_Push SW31
-U 1 1 5C712EBB
-P 5450 1600
-F 0 "SW31" H 5450 1885 50  0000 C CNN
-F 1 "SW_Push" H 5450 1794 50  0000 C CNN
-F 2 "switches:SW_Cherry_MX_1.00u_PCB_dual" H 5450 1800 50  0001 C CNN
-F 3 "" H 5450 1800 50  0001 C CNN
-	1    5450 1600
-	1    0    0    -1  
 $EndComp
 $Comp
 L Diode:1N4148 D31
@@ -163,17 +95,6 @@ column5
 Text GLabel 5250 1050 1    50   Input ~ 0
 column6
 $Comp
-L Switch:SW_Push SW37
-U 1 1 5C715780
-P 6150 1600
-F 0 "SW37" H 6150 1885 50  0000 C CNN
-F 1 "SW_Push" H 6150 1794 50  0000 C CNN
-F 2 "switches:SW_Cherry_MX_1.00u_PCB_dual" H 6150 1800 50  0001 C CNN
-F 3 "" H 6150 1800 50  0001 C CNN
-	1    6150 1600
-	1    0    0    -1  
-$EndComp
-$Comp
 L Diode:1N4148 D37
 U 1 1 5C715787
 P 6350 1750
@@ -186,14 +107,6 @@ F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 6350 1750 50  
 $EndComp
 Text GLabel 5950 1050 1    50   Input ~ 0
 column7
-Wire Wire Line
-	2450 1050 2450 1600
-Wire Wire Line
-	3150 1050 3150 1600
-Wire Wire Line
-	3850 1050 3850 1600
-Wire Wire Line
-	4550 1050 4550 1600
 Wire Wire Line
 	1450 1900 2150 1900
 Wire Wire Line
@@ -214,10 +127,6 @@ Connection ~ 4950 1900
 Wire Wire Line
 	5650 1900 6350 1900
 Connection ~ 5650 1900
-Wire Wire Line
-	5950 1600 5950 1050
-Wire Wire Line
-	5250 1600 5250 1050
 $Comp
 L Switch:SW_Push SW2
 U 1 1 5C71F3E0
@@ -394,27 +303,6 @@ Connection ~ 4950 2700
 Wire Wire Line
 	5650 2700 6350 2700
 Connection ~ 5650 2700
-Wire Wire Line
-	3150 1600 3150 2400
-Connection ~ 3150 1600
-Wire Wire Line
-	1750 1600 1750 2400
-Connection ~ 1750 1600
-Wire Wire Line
-	3850 1600 3850 2400
-Connection ~ 3850 1600
-Wire Wire Line
-	4550 1600 4550 2400
-Connection ~ 4550 1600
-Wire Wire Line
-	5250 1600 5250 2400
-Connection ~ 5250 1600
-Wire Wire Line
-	5950 1600 5950 2400
-Connection ~ 5950 1600
-Wire Wire Line
-	2450 1600 2450 2400
-Connection ~ 2450 1600
 $Comp
 L Switch:SW_Push SW3
 U 1 1 5C7214A9
@@ -1168,20 +1056,9 @@ Wire Wire Line
 	5250 4800 5250 5600
 Wire Wire Line
 	2450 4800 2450 5600
-$Comp
-L proton_c:proton_c U1
-U 1 1 5C71A34D
-P 9150 3250
-F 0 "U1" H 9125 1728 50  0000 C CNN
-F 1 "proton_c" H 9125 1637 50  0000 C CNN
-F 2 "protonc:proton_c" H 9000 3250 50  0001 C CNN
-F 3 "" H 9000 3250 50  0001 C CNN
-	1    9150 3250
-	1    0    0    -1  
-$EndComp
-Text GLabel 7950 2950 0    50   Input ~ 0
+Text GLabel 7950 3050 0    50   Input ~ 0
 column7
-Text GLabel 7950 2850 0    50   Input ~ 0
+Text GLabel 7950 2950 0    50   Input ~ 0
 column6
 Text GLabel 10300 2650 2    50   Input ~ 0
 row1
@@ -1191,19 +1068,19 @@ Text GLabel 10300 2850 2    50   Input ~ 0
 row3
 Text GLabel 10300 2950 2    50   Input ~ 0
 row4
-Text GLabel 10300 3350 2    50   Input ~ 0
+Text GLabel 8100 4150 0    50   Input ~ 0
 row5
-Text GLabel 10150 4250 2    50   Input ~ 0
+Text GLabel 8100 4250 0    50   Input ~ 0
 row6
-Text GLabel 7950 2750 0    50   Input ~ 0
+Text GLabel 7950 2850 0    50   Input ~ 0
 column5
-Text GLabel 7950 2650 0    50   Input ~ 0
+Text GLabel 10150 3050 2    50   Input ~ 0
 column4
-Text GLabel 7950 3050 0    50   Input ~ 0
-column3
 Text GLabel 7950 3150 0    50   Input ~ 0
-column2
+column3
 Text GLabel 7950 3250 0    50   Input ~ 0
+column2
+Text GLabel 7950 3350 0    50   Input ~ 0
 column1
 Wire Wire Line
 	7950 3250 8100 3250
@@ -1227,8 +1104,6 @@ Wire Wire Line
 	10150 2950 10300 2950
 Wire Wire Line
 	10300 2850 10150 2850
-Wire Wire Line
-	10300 3350 10150 3350
 Connection ~ 1750 4800
 Connection ~ 2450 4800
 Connection ~ 3150 4800
@@ -1238,314 +1113,284 @@ Connection ~ 5250 4800
 $Comp
 L Switch:SW_Push SW45
 U 1 1 5C75EE71
-P 5200 6950
-F 0 "SW45" H 5200 7235 50  0000 C CNN
-F 1 "SW_Push" H 5200 7144 50  0000 C CNN
-F 2 "switches:SW_Cherry_MX_1.00u_PCB_dual" H 5200 7150 50  0001 C CNN
-F 3 "" H 5200 7150 50  0001 C CNN
-	1    5200 6950
+P 4700 6650
+F 0 "SW45" H 4700 6935 50  0000 C CNN
+F 1 "SW_Push" H 4700 6844 50  0000 C CNN
+F 2 "switches:SW_Cherry_MX_1.00u_PCB_dual" H 4700 6850 50  0001 C CNN
+F 3 "" H 4700 6850 50  0001 C CNN
+	1    4700 6650
 	1    0    0    -1  
 $EndComp
 $Comp
 L Diode:1N4148 D45
 U 1 1 5C75EE78
-P 5400 7100
-F 0 "D45" H 5400 7200 50  0000 C CNN
-F 1 "1N4148" H 5400 7000 50  0000 C CNN
-F 2 "Diodes_ThroughHole:D_DO-35_SOD27_P7.62mm_Horizontal" H 5400 6925 50  0001 C CNN
-F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 5400 7100 50  0001 C CNN
-	1    5400 7100
+P 4900 6800
+F 0 "D45" H 4900 6900 50  0000 C CNN
+F 1 "1N4148" H 4900 6700 50  0000 C CNN
+F 2 "Diodes_ThroughHole:D_DO-35_SOD27_P7.62mm_Horizontal" H 4900 6625 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 4900 6800 50  0001 C CNN
+	1    4900 6800
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Switch:SW_Push SW48
 U 1 1 5C7614FC
-P 5900 6950
-F 0 "SW48" H 5900 7235 50  0000 C CNN
-F 1 "SW_Push" H 5900 7144 50  0000 C CNN
-F 2 "switches:SW_Cherry_MX_1.00u_PCB_dual" H 5900 7150 50  0001 C CNN
-F 3 "" H 5900 7150 50  0001 C CNN
-	1    5900 6950
+P 5400 6800
+F 0 "SW48" H 5400 7085 50  0000 C CNN
+F 1 "SW_Push" H 5400 6994 50  0000 C CNN
+F 2 "switches:SW_Cherry_MX_1.00u_PCB_dual" H 5400 7000 50  0001 C CNN
+F 3 "" H 5400 7000 50  0001 C CNN
+	1    5400 6800
 	1    0    0    -1  
 $EndComp
 $Comp
 L Diode:1N4148 D48
 U 1 1 5C761503
-P 6100 7100
-F 0 "D48" H 6100 7200 50  0000 C CNN
-F 1 "1N4148" H 6100 7000 50  0000 C CNN
-F 2 "Diodes_ThroughHole:D_DO-35_SOD27_P7.62mm_Horizontal" H 6100 6925 50  0001 C CNN
-F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 6100 7100 50  0001 C CNN
-	1    6100 7100
+P 5600 6950
+F 0 "D48" H 5600 7050 50  0000 C CNN
+F 1 "1N4148" H 5600 6850 50  0000 C CNN
+F 2 "Diodes_ThroughHole:D_DO-35_SOD27_P7.62mm_Horizontal" H 5600 6775 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 5600 6950 50  0001 C CNN
+	1    5600 6950
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	5400 7250 6100 7250
 $Comp
 L Switch:SW_Push SW49
 U 1 1 5C763CDF
-P 5900 7750
-F 0 "SW49" H 5900 8035 50  0000 C CNN
-F 1 "SW_Push" H 5900 7944 50  0000 C CNN
-F 2 "switches:SW_Cherry_MX_1.00u_PCB_dual" H 5900 7950 50  0001 C CNN
-F 3 "" H 5900 7950 50  0001 C CNN
-	1    5900 7750
+P 5400 7600
+F 0 "SW49" H 5400 7885 50  0000 C CNN
+F 1 "SW_Push" H 5400 7794 50  0000 C CNN
+F 2 "switches:SW_Cherry_MX_1.00u_PCB_dual" H 5400 7800 50  0001 C CNN
+F 3 "" H 5400 7800 50  0001 C CNN
+	1    5400 7600
 	1    0    0    -1  
 $EndComp
 $Comp
 L Diode:1N4148 D49
 U 1 1 5C763CE6
-P 6100 7900
-F 0 "D49" H 6100 8000 50  0000 C CNN
-F 1 "1N4148" H 6100 7800 50  0000 C CNN
-F 2 "Diodes_ThroughHole:D_DO-35_SOD27_P7.62mm_Horizontal" H 6100 7725 50  0001 C CNN
-F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 6100 7900 50  0001 C CNN
-	1    6100 7900
+P 5600 7750
+F 0 "D49" H 5600 7850 50  0000 C CNN
+F 1 "1N4148" H 5600 7650 50  0000 C CNN
+F 2 "Diodes_ThroughHole:D_DO-35_SOD27_P7.62mm_Horizontal" H 5600 7575 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 5600 7750 50  0001 C CNN
+	1    5600 7750
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	5400 8050 6100 8050
+	4900 7900 5600 7900
 Wire Wire Line
-	5700 6950 5700 7750
+	5200 6800 5200 7600
 $Comp
 L Switch:SW_Push SW46
 U 1 1 5C7665FC
-P 5200 7750
-F 0 "SW46" H 5200 8035 50  0000 C CNN
-F 1 "SW_Push" H 5200 7944 50  0000 C CNN
-F 2 "switches:SW_Cherry_MX_1.00u_PCB_dual" H 5200 7950 50  0001 C CNN
-F 3 "" H 5200 7950 50  0001 C CNN
-	1    5200 7750
+P 4700 7600
+F 0 "SW46" H 4700 7885 50  0000 C CNN
+F 1 "SW_Push" H 4700 7794 50  0000 C CNN
+F 2 "switches:SW_Cherry_MX_1.00u_PCB_dual" H 4700 7800 50  0001 C CNN
+F 3 "" H 4700 7800 50  0001 C CNN
+	1    4700 7600
 	1    0    0    -1  
 $EndComp
 $Comp
 L Diode:1N4148 D46
 U 1 1 5C766603
-P 5400 7900
-F 0 "D46" H 5400 8000 50  0000 C CNN
-F 1 "1N4148" H 5400 7800 50  0000 C CNN
-F 2 "Diodes_ThroughHole:D_DO-35_SOD27_P7.62mm_Horizontal" H 5400 7725 50  0001 C CNN
-F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 5400 7900 50  0001 C CNN
-	1    5400 7900
+P 4900 7750
+F 0 "D46" H 4900 7850 50  0000 C CNN
+F 1 "1N4148" H 4900 7650 50  0000 C CNN
+F 2 "Diodes_ThroughHole:D_DO-35_SOD27_P7.62mm_Horizontal" H 4900 7575 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 4900 7750 50  0001 C CNN
+	1    4900 7750
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	4700 8050 5400 8050
-Wire Wire Line
-	5000 6950 5000 7750
+	4200 7900 4900 7900
 $Comp
 L Switch:SW_Push SW43
 U 1 1 5C769077
-P 4500 7750
-F 0 "SW43" H 4500 8035 50  0000 C CNN
-F 1 "SW_Push" H 4500 7944 50  0000 C CNN
-F 2 "switches:SW_Cherry_MX_1.00u_PCB_dual" H 4500 7950 50  0001 C CNN
-F 3 "" H 4500 7950 50  0001 C CNN
-	1    4500 7750
+P 4000 7600
+F 0 "SW43" H 4000 7885 50  0000 C CNN
+F 1 "SW_Push" H 4000 7794 50  0000 C CNN
+F 2 "switches:SW_Cherry_MX_1.00u_PCB_dual" H 4000 7800 50  0001 C CNN
+F 3 "" H 4000 7800 50  0001 C CNN
+	1    4000 7600
 	1    0    0    -1  
 $EndComp
 $Comp
 L Diode:1N4148 D43
 U 1 1 5C76907E
-P 4700 7900
-F 0 "D43" H 4700 8000 50  0000 C CNN
-F 1 "1N4148" H 4700 7800 50  0000 C CNN
-F 2 "Diodes_ThroughHole:D_DO-35_SOD27_P7.62mm_Horizontal" H 4700 7725 50  0001 C CNN
-F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 4700 7900 50  0001 C CNN
-	1    4700 7900
+P 4200 7750
+F 0 "D43" H 4200 7850 50  0000 C CNN
+F 1 "1N4148" H 4200 7650 50  0000 C CNN
+F 2 "Diodes_ThroughHole:D_DO-35_SOD27_P7.62mm_Horizontal" H 4200 7575 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 4200 7750 50  0001 C CNN
+	1    4200 7750
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	4000 8050 4700 8050
+	3500 7900 4200 7900
 $Comp
 L Switch:SW_Push SW44
 U 1 1 5C76BC93
-P 4500 8550
-F 0 "SW44" H 4500 8835 50  0000 C CNN
-F 1 "SW_Push" H 4500 8744 50  0000 C CNN
-F 2 "switches:SW_Cherry_MX_1.00u_PCB_dual" H 4500 8750 50  0001 C CNN
-F 3 "" H 4500 8750 50  0001 C CNN
-	1    4500 8550
+P 4000 8400
+F 0 "SW44" H 4000 8685 50  0000 C CNN
+F 1 "SW_Push" H 4000 8594 50  0000 C CNN
+F 2 "switches:SW_Cherry_MX_1.00u_PCB_dual" H 4000 8600 50  0001 C CNN
+F 3 "" H 4000 8600 50  0001 C CNN
+	1    4000 8400
 	1    0    0    -1  
 $EndComp
 $Comp
 L Diode:1N4148 D44
 U 1 1 5C76BC9A
-P 4700 8700
-F 0 "D44" H 4700 8800 50  0000 C CNN
-F 1 "1N4148" H 4700 8600 50  0000 C CNN
-F 2 "Diodes_ThroughHole:D_DO-35_SOD27_P7.62mm_Horizontal" H 4700 8525 50  0001 C CNN
-F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 4700 8700 50  0001 C CNN
-	1    4700 8700
+P 4200 8550
+F 0 "D44" H 4200 8650 50  0000 C CNN
+F 1 "1N4148" H 4200 8450 50  0000 C CNN
+F 2 "Diodes_ThroughHole:D_DO-35_SOD27_P7.62mm_Horizontal" H 4200 8375 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 4200 8550 50  0001 C CNN
+	1    4200 8550
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	4000 8850 4700 8850
+	3500 8700 4200 8700
 Wire Wire Line
-	4300 7750 4300 8550
+	3800 7600 3800 8400
 $Comp
 L Switch:SW_Push SW47
 U 1 1 5C76EA08
-P 5200 8550
-F 0 "SW47" H 5200 8835 50  0000 C CNN
-F 1 "SW_Push" H 5200 8744 50  0000 C CNN
-F 2 "switches:SW_Cherry_MX_1.00u_PCB_dual" H 5200 8750 50  0001 C CNN
-F 3 "" H 5200 8750 50  0001 C CNN
-	1    5200 8550
+P 4700 8400
+F 0 "SW47" H 4700 8685 50  0000 C CNN
+F 1 "SW_Push" H 4700 8594 50  0000 C CNN
+F 2 "switches:SW_Cherry_MX_1.00u_PCB_dual" H 4700 8600 50  0001 C CNN
+F 3 "" H 4700 8600 50  0001 C CNN
+	1    4700 8400
 	1    0    0    -1  
 $EndComp
 $Comp
 L Diode:1N4148 D47
 U 1 1 5C76EA0F
-P 5400 8700
-F 0 "D47" H 5400 8800 50  0000 C CNN
-F 1 "1N4148" H 5400 8600 50  0000 C CNN
-F 2 "Diodes_ThroughHole:D_DO-35_SOD27_P7.62mm_Horizontal" H 5400 8525 50  0001 C CNN
-F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 5400 8700 50  0001 C CNN
-	1    5400 8700
+P 4900 8550
+F 0 "D47" H 4900 8650 50  0000 C CNN
+F 1 "1N4148" H 4900 8450 50  0000 C CNN
+F 2 "Diodes_ThroughHole:D_DO-35_SOD27_P7.62mm_Horizontal" H 4900 8375 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 4900 8550 50  0001 C CNN
+	1    4900 8550
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	4700 8850 5400 8850
+	4200 8700 4900 8700
 Wire Wire Line
-	5000 7750 5000 8550
+	4500 7600 4500 8400
 $Comp
 L Switch:SW_Push SW50
 U 1 1 5C771918
-P 5900 8550
-F 0 "SW50" H 5900 8835 50  0000 C CNN
-F 1 "SW_Push" H 5900 8744 50  0000 C CNN
-F 2 "switches:SW_Cherry_MX_1.00u_PCB_dual" H 5900 8750 50  0001 C CNN
-F 3 "" H 5900 8750 50  0001 C CNN
-	1    5900 8550
+P 5400 8400
+F 0 "SW50" H 5400 8685 50  0000 C CNN
+F 1 "SW_Push" H 5400 8594 50  0000 C CNN
+F 2 "switches:SW_Cherry_MX_1.00u_PCB_dual" H 5400 8600 50  0001 C CNN
+F 3 "" H 5400 8600 50  0001 C CNN
+	1    5400 8400
 	1    0    0    -1  
 $EndComp
 $Comp
 L Diode:1N4148 D50
 U 1 1 5C77191F
-P 6100 8700
-F 0 "D50" H 6100 8800 50  0000 C CNN
-F 1 "1N4148" H 6100 8600 50  0000 C CNN
-F 2 "Diodes_ThroughHole:D_DO-35_SOD27_P7.62mm_Horizontal" H 6100 8525 50  0001 C CNN
-F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 6100 8700 50  0001 C CNN
-	1    6100 8700
+P 5600 8550
+F 0 "D50" H 5600 8650 50  0000 C CNN
+F 1 "1N4148" H 5600 8450 50  0000 C CNN
+F 2 "Diodes_ThroughHole:D_DO-35_SOD27_P7.62mm_Horizontal" H 5600 8375 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 5600 8550 50  0001 C CNN
+	1    5600 8550
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	5400 8850 6100 8850
+	4900 8700 5600 8700
 Wire Wire Line
-	5700 7750 5700 8550
-Connection ~ 4700 8050
-Connection ~ 4700 8850
-Connection ~ 5000 7750
-Connection ~ 5400 7250
-Connection ~ 5400 8050
-Connection ~ 5400 8850
-Connection ~ 5700 7750
+	5200 7600 5200 8400
+Connection ~ 4200 7900
+Connection ~ 4200 8700
+Connection ~ 4900 7900
+Connection ~ 4900 8700
+Connection ~ 5200 7600
 Connection ~ 2150 5100
-Text GLabel 4000 8050 0    50   Input ~ 0
-row5
-Text GLabel 4000 8850 0    50   Input ~ 0
-row6
-Text GLabel 4000 7250 0    50   Input ~ 0
-row4
 $Comp
 L Switch:SW_Push SW51
 U 1 1 5C785980
-P 6600 6950
-F 0 "SW51" H 6600 7235 50  0000 C CNN
-F 1 "SW_Push" H 6600 7144 50  0000 C CNN
-F 2 "switches:SW_Cherry_MX_1.00u_PCB_dual" H 6600 7150 50  0001 C CNN
-F 3 "" H 6600 7150 50  0001 C CNN
-	1    6600 6950
+P 6100 6800
+F 0 "SW51" H 6100 7085 50  0000 C CNN
+F 1 "SW_Push" H 6100 6994 50  0000 C CNN
+F 2 "switches:SW_Cherry_MX_1.00u_PCB_dual" H 6100 7000 50  0001 C CNN
+F 3 "" H 6100 7000 50  0001 C CNN
+	1    6100 6800
 	1    0    0    -1  
 $EndComp
 $Comp
 L Diode:1N4148 D51
 U 1 1 5C785987
-P 6800 7100
-F 0 "D51" H 6800 7200 50  0000 C CNN
-F 1 "1N4148" H 6800 7000 50  0000 C CNN
-F 2 "Diodes_ThroughHole:D_DO-35_SOD27_P7.62mm_Horizontal" H 6800 6925 50  0001 C CNN
-F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 6800 7100 50  0001 C CNN
-	1    6800 7100
+P 6300 6950
+F 0 "D51" H 6300 7050 50  0000 C CNN
+F 1 "1N4148" H 6300 6850 50  0000 C CNN
+F 2 "Diodes_ThroughHole:D_DO-35_SOD27_P7.62mm_Horizontal" H 6300 6775 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 6300 6950 50  0001 C CNN
+	1    6300 6950
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	6100 7250 6800 7250
+	5600 7100 6300 7100
 $Comp
 L Switch:SW_Push SW52
 U 1 1 5C78598F
-P 6600 7750
-F 0 "SW52" H 6600 8035 50  0000 C CNN
-F 1 "SW_Push" H 6600 7944 50  0000 C CNN
-F 2 "switches:SW_Cherry_MX_1.00u_PCB_dual" H 6600 7950 50  0001 C CNN
-F 3 "" H 6600 7950 50  0001 C CNN
-	1    6600 7750
+P 6100 7600
+F 0 "SW52" H 6100 7885 50  0000 C CNN
+F 1 "SW_Push" H 6100 7794 50  0000 C CNN
+F 2 "switches:SW_Cherry_MX_1.00u_PCB_dual" H 6100 7800 50  0001 C CNN
+F 3 "" H 6100 7800 50  0001 C CNN
+	1    6100 7600
 	1    0    0    -1  
 $EndComp
 $Comp
 L Diode:1N4148 D52
 U 1 1 5C785996
-P 6800 7900
-F 0 "D52" H 6800 8000 50  0000 C CNN
-F 1 "1N4148" H 6800 7800 50  0000 C CNN
-F 2 "Diodes_ThroughHole:D_DO-35_SOD27_P7.62mm_Horizontal" H 6800 7725 50  0001 C CNN
-F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 6800 7900 50  0001 C CNN
-	1    6800 7900
+P 6300 7750
+F 0 "D52" H 6300 7850 50  0000 C CNN
+F 1 "1N4148" H 6300 7650 50  0000 C CNN
+F 2 "Diodes_ThroughHole:D_DO-35_SOD27_P7.62mm_Horizontal" H 6300 7575 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 6300 7750 50  0001 C CNN
+	1    6300 7750
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	6100 8050 6800 8050
+	5600 7900 6300 7900
 Wire Wire Line
-	6400 6950 6400 7750
+	5900 6800 5900 7600
 $Comp
 L Switch:SW_Push SW53
 U 1 1 5C78599F
-P 6600 8550
-F 0 "SW53" H 6600 8835 50  0000 C CNN
-F 1 "SW_Push" H 6600 8744 50  0000 C CNN
-F 2 "switches:SW_Cherry_MX_1.00u_PCB_dual" H 6600 8750 50  0001 C CNN
-F 3 "" H 6600 8750 50  0001 C CNN
-	1    6600 8550
+P 6100 8400
+F 0 "SW53" H 6100 8685 50  0000 C CNN
+F 1 "SW_Push" H 6100 8594 50  0000 C CNN
+F 2 "switches:SW_Cherry_MX_1.00u_PCB_dual" H 6100 8600 50  0001 C CNN
+F 3 "" H 6100 8600 50  0001 C CNN
+	1    6100 8400
 	1    0    0    -1  
 $EndComp
 $Comp
 L Diode:1N4148 D53
 U 1 1 5C7859A6
-P 6800 8700
-F 0 "D53" H 6800 8800 50  0000 C CNN
-F 1 "1N4148" H 6800 8600 50  0000 C CNN
-F 2 "Diodes_ThroughHole:D_DO-35_SOD27_P7.62mm_Horizontal" H 6800 8525 50  0001 C CNN
-F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 6800 8700 50  0001 C CNN
-	1    6800 8700
+P 6300 8550
+F 0 "D53" H 6300 8650 50  0000 C CNN
+F 1 "1N4148" H 6300 8450 50  0000 C CNN
+F 2 "Diodes_ThroughHole:D_DO-35_SOD27_P7.62mm_Horizontal" H 6300 8375 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 6300 8550 50  0001 C CNN
+	1    6300 8550
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	6100 8850 6800 8850
+	5600 8700 6300 8700
 Wire Wire Line
-	6400 7750 6400 8550
-Connection ~ 6400 7750
-Text GLabel 5000 6950 1    50   Input ~ 0
-column9
-Text GLabel 5700 6950 1    50   Input ~ 0
-column10
-Text GLabel 6400 6950 1    50   Input ~ 0
-column11
-Text GLabel 8100 4450 0    50   Input ~ 0
+	5900 7600 5900 8400
+Connection ~ 5900 7600
+Text GLabel 10150 4150 2    50   Input ~ 0
 column8
-Text GLabel 8100 4350 0    50   Input ~ 0
-column9
-Text GLabel 8100 4250 0    50   Input ~ 0
-column10
-Text GLabel 8100 4150 0    50   Input ~ 0
-column11
-Wire Wire Line
-	10150 3050 11050 3050
-Wire Wire Line
-	10900 3150 10150 3150
-Wire Wire Line
-	10150 3250 10800 3250
 Wire Wire Line
 	10150 2250 11150 2250
 $Comp
@@ -1570,10 +1415,6 @@ F 3 "" H 12250 2800 50  0001 C CNN
 	1    12250 2800
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	4000 7250 5400 7250
-Text GLabel 4300 7750 1    50   Input ~ 0
-column8
 $Comp
 L power:GND #PWR0103
 U 1 1 5C80408E
@@ -1612,43 +1453,9 @@ Wire Wire Line
 Wire Wire Line
 	11150 5400 11650 5400
 Wire Wire Line
-	11650 5200 11550 5200
-Wire Wire Line
-	11550 5200 11550 4250
-Wire Wire Line
-	11550 3200 11650 3200
-Wire Wire Line
 	11650 4900 11500 4900
 Wire Wire Line
-	11500 4900 11500 4800
-Wire Wire Line
 	11500 4700 11650 4700
-Wire Wire Line
-	11650 4800 11600 4800
-Wire Wire Line
-	11600 4800 11600 4650
-Wire Wire Line
-	11600 4600 11650 4600
-Wire Wire Line
-	10800 4800 11500 4800
-Connection ~ 11500 4800
-Wire Wire Line
-	11500 4800 11500 4700
-Wire Wire Line
-	10900 4650 11600 4650
-Wire Wire Line
-	10900 3150 10900 4650
-Connection ~ 11600 4650
-Wire Wire Line
-	11600 4650 11600 4600
-Wire Wire Line
-	11050 3050 11050 4250
-Wire Wire Line
-	11050 4250 11550 4250
-Connection ~ 11550 4250
-Wire Wire Line
-	11550 4250 11550 3200
-NoConn ~ 8100 3350
 NoConn ~ 8100 3700
 NoConn ~ 8100 2350
 NoConn ~ 8100 2250
@@ -1658,17 +1465,1485 @@ NoConn ~ 10150 3550
 NoConn ~ 10150 3650
 NoConn ~ 10150 3750
 NoConn ~ 10150 3850
-NoConn ~ 10150 4150
-NoConn ~ 10150 4350
 NoConn ~ 10150 4450
 NoConn ~ 10150 4550
-NoConn ~ 10150 4650
 NoConn ~ 8100 4650
 NoConn ~ 8100 4550
 NoConn ~ 8750 1950
 NoConn ~ 8850 1950
 NoConn ~ 8950 1950
 NoConn ~ 9300 1950
+Text GLabel 7950 2650 0    50   Input ~ 0
+SDA
+Text GLabel 7950 2750 0    50   Input ~ 0
+SCL
+Text GLabel 11450 4300 0    50   Input ~ 0
+SDA
+Text GLabel 11500 4700 1    50   Input ~ 0
+SCL
+Connection ~ 5600 7100
+Connection ~ 5600 7900
+Connection ~ 5600 8700
+Text GLabel 3500 8700 0    50   Input ~ 0
+row8
+Text GLabel 3500 7900 0    50   Input ~ 0
+row7
+Connection ~ 5900 6800
 Wire Wire Line
-	10800 3250 10800 4800
+	5900 6400 5900 6800
+Text GLabel 5900 6400 1    50   Input ~ 0
+column8
+Text GLabel 5200 6400 1    50   Input ~ 0
+column7
+Wire Wire Line
+	5200 6400 5200 6800
+Connection ~ 5200 6800
+Text GLabel 3500 7100 0    50   Input ~ 0
+row6
+Wire Wire Line
+	3500 7100 5600 7100
+Text GLabel 4500 7500 1    50   Input ~ 0
+column6
+Wire Wire Line
+	4500 7500 4500 7600
+Connection ~ 4500 7600
+Text GLabel 4500 6400 1    50   Input ~ 0
+column8
+Wire Wire Line
+	4500 6400 4500 6650
+Text GLabel 4450 6950 0    50   Input ~ 0
+row5
+Wire Wire Line
+	4450 6950 4900 6950
+Wire Wire Line
+	7950 3350 8100 3350
+Text GLabel 10150 4350 2    50   Input ~ 0
+row7
+Text GLabel 10150 4250 2    50   Input ~ 0
+row8
+$Comp
+L proton_c:proton_c U1
+U 1 1 5C71A34D
+P 9150 3250
+F 0 "U1" H 9125 1728 50  0000 C CNN
+F 1 "proton_c" H 9125 1637 50  0000 C CNN
+F 2 "protonc:proton_c" H 9000 3250 50  0001 C CNN
+F 3 "" H 9000 3250 50  0001 C CNN
+	1    9150 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0120
+U 1 1 5C811DA0
+P -1400 8100
+F 0 "#PWR0120" H -1400 7850 50  0001 C CNN
+F 1 "GND" H -1300 8000 50  0000 C CNN
+F 2 "" H -1400 8100 50  0001 C CNN
+F 3 "" H -1400 8100 50  0001 C CNN
+	1    -1400 8100
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0121
+U 1 1 5C7F1FCB
+P 1650 7150
+F 0 "#PWR0121" H 1650 6900 50  0001 C CNN
+F 1 "GND" H 1655 6977 50  0000 C CNN
+F 2 "" H 1650 7150 50  0001 C CNN
+F 3 "" H 1650 7150 50  0001 C CNN
+	1    1650 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0122
+U 1 1 5C7F1E82
+P 600 7150
+F 0 "#PWR0122" H 600 6900 50  0001 C CNN
+F 1 "GND" H 605 6977 50  0000 C CNN
+F 2 "" H 600 7150 50  0001 C CNN
+F 3 "" H 600 7150 50  0001 C CNN
+	1    600  7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B LED44
+U 1 1 5CB434D0
+P -1400 8400
+F 0 "LED44" V -1650 8200 50  0000 C CNN
+F 1 "WS2812" V -1650 8600 50  0000 C CNN
+F 2 "switches:LED_WS2812B-inverted" H -1350 8100 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812.pdf" H -1300 8025 50  0001 L TNN
+	1    -1400 8400
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED:WS2812B LED43
+U 1 1 5C9B9EE0
+P -1400 7500
+F 0 "LED43" V -1650 7300 50  0000 C CNN
+F 1 "WS2812" V -1650 7700 50  0000 C CNN
+F 2 "switches:LED_WS2812B-inverted" H -1350 7200 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812.pdf" H -1300 7125 50  0001 L TNN
+	1    -1400 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B LED26
+U 1 1 5CD6FB5C
+P -4000 1500
+F 0 "LED26" H -3659 1546 50  0000 L CNN
+F 1 "WS2812B" H -3659 1455 50  0000 L CNN
+F 2 "switches:LED_WS2812B-inverted" H -3950 1200 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H -3900 1125 50  0001 L TNN
+	1    -4000 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B LED28
+U 1 1 5CD6FE26
+P -4000 3600
+F 0 "LED28" H -3659 3646 50  0000 L CNN
+F 1 "WS2812B" H -3659 3555 50  0000 L CNN
+F 2 "switches:LED_WS2812B-inverted" H -3950 3300 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H -3900 3225 50  0001 L TNN
+	1    -4000 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B LED29
+U 1 1 5CD7051C
+P -4000 4700
+F 0 "LED29" H -4341 4654 50  0000 R CNN
+F 1 "WS2812B" H -4341 4745 50  0000 R CNN
+F 2 "switches:LED_WS2812B-inverted" H -3950 4400 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H -3900 4325 50  0001 L TNN
+	1    -4000 4700
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED:WS2812B LED30
+U 1 1 5CD70686
+P -4000 5750
+F 0 "LED30" H -3659 5796 50  0000 L CNN
+F 1 "WS2812B" H -3659 5705 50  0000 L CNN
+F 2 "switches:LED_WS2812B-inverted" H -3950 5450 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H -3900 5375 50  0001 L TNN
+	1    -4000 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B LED31
+U 1 1 5CD711F4
+P -2800 450
+F 0 "LED31" H -3141 404 50  0000 R CNN
+F 1 "WS2812B" H -3141 495 50  0000 R CNN
+F 2 "switches:LED_WS2812B-inverted" H -2750 150 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H -2700 75  50  0001 L TNN
+	1    -2800 450 
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED:WS2812B LED32
+U 1 1 5CDEFBA2
+P -2800 1500
+F 0 "LED32" H -2459 1546 50  0000 L CNN
+F 1 "WS2812B" H -2459 1455 50  0000 L CNN
+F 2 "switches:LED_WS2812B-inverted" H -2750 1200 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H -2700 1125 50  0001 L TNN
+	1    -2800 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B LED33
+U 1 1 5CDEFD06
+P -2800 2550
+F 0 "LED33" H -3141 2504 50  0000 R CNN
+F 1 "WS2812B" H -3141 2595 50  0000 R CNN
+F 2 "switches:LED_WS2812B-inverted" H -2750 2250 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H -2700 2175 50  0001 L TNN
+	1    -2800 2550
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED:WS2812B LED34
+U 1 1 5CDF053F
+P -2800 3600
+F 0 "LED34" H -2459 3646 50  0000 L CNN
+F 1 "WS2812B" H -2459 3555 50  0000 L CNN
+F 2 "switches:LED_WS2812B-inverted" H -2750 3300 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H -2700 3225 50  0001 L TNN
+	1    -2800 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B LED35
+U 1 1 5CDF0895
+P -2800 4700
+F 0 "LED35" H -3141 4654 50  0000 R CNN
+F 1 "WS2812B" H -3141 4745 50  0000 R CNN
+F 2 "switches:LED_WS2812B-inverted" H -2750 4400 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H -2700 4325 50  0001 L TNN
+	1    -2800 4700
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED:WS2812B LED36
+U 1 1 5CDF1437
+P -2800 5750
+F 0 "LED36" H -2459 5796 50  0000 L CNN
+F 1 "WS2812B" H -2459 5705 50  0000 L CNN
+F 2 "switches:LED_WS2812B-inverted" H -2750 5450 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H -2700 5375 50  0001 L TNN
+	1    -2800 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B LED37
+U 1 1 5CE0627B
+P -1550 450
+F 0 "LED37" H -1891 404 50  0000 R CNN
+F 1 "WS2812B" H -1891 495 50  0000 R CNN
+F 2 "switches:LED_WS2812B-inverted" H -1500 150 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H -1450 75  50  0001 L TNN
+	1    -1550 450 
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED:WS2812B LED38
+U 1 1 5CE06282
+P -1550 1500
+F 0 "LED38" H -1209 1546 50  0000 L CNN
+F 1 "WS2812B" H -1209 1455 50  0000 L CNN
+F 2 "switches:LED_WS2812B-inverted" H -1500 1200 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H -1450 1125 50  0001 L TNN
+	1    -1550 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B LED39
+U 1 1 5CE06289
+P -1550 2550
+F 0 "LED39" H -1891 2504 50  0000 R CNN
+F 1 "WS2812B" H -1891 2595 50  0000 R CNN
+F 2 "switches:LED_WS2812B-inverted" H -1500 2250 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H -1450 2175 50  0001 L TNN
+	1    -1550 2550
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED:WS2812B LED40
+U 1 1 5CE06290
+P -1550 3600
+F 0 "LED40" H -1209 3646 50  0000 L CNN
+F 1 "WS2812B" H -1209 3555 50  0000 L CNN
+F 2 "switches:LED_WS2812B-inverted" H -1500 3300 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H -1450 3225 50  0001 L TNN
+	1    -1550 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B LED41
+U 1 1 5CE06297
+P -1550 4700
+F 0 "LED41" H -1891 4654 50  0000 R CNN
+F 1 "WS2812B" H -1891 4745 50  0000 R CNN
+F 2 "switches:LED_WS2812B-inverted" H -1500 4400 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H -1450 4325 50  0001 L TNN
+	1    -1550 4700
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED:WS2812B LED19
+U 1 1 5CE5085D
+P -5050 450
+F 0 "LED19" H -5391 404 50  0000 R CNN
+F 1 "WS2812B" H -5391 495 50  0000 R CNN
+F 2 "switches:LED_WS2812B-inverted" H -5000 150 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H -4950 75  50  0001 L TNN
+	1    -5050 450 
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED:WS2812B LED20
+U 1 1 5CE50864
+P -5050 1500
+F 0 "LED20" H -4709 1546 50  0000 L CNN
+F 1 "WS2812B" H -4709 1455 50  0000 L CNN
+F 2 "switches:LED_WS2812B-inverted" H -5000 1200 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H -4950 1125 50  0001 L TNN
+	1    -5050 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B LED22
+U 1 1 5CE50872
+P -5050 3600
+F 0 "LED22" H -4709 3646 50  0000 L CNN
+F 1 "WS2812B" H -4709 3555 50  0000 L CNN
+F 2 "switches:LED_WS2812B-inverted" H -5000 3300 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H -4950 3225 50  0001 L TNN
+	1    -5050 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B LE23
+U 1 1 5CE50879
+P -5050 4700
+F 0 "LE23" H -5391 4654 50  0000 R CNN
+F 1 "WS2812B" H -5391 4745 50  0000 R CNN
+F 2 "switches:LED_WS2812B-inverted" H -5000 4400 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H -4950 4325 50  0001 L TNN
+	1    -5050 4700
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED:WS2812B LED13
+U 1 1 5CE6FB2C
+P -6250 450
+F 0 "LED13" H -6591 404 50  0000 R CNN
+F 1 "WS2812B" H -6591 495 50  0000 R CNN
+F 2 "switches:LED_WS2812B-inverted" H -6200 150 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H -6150 75  50  0001 L TNN
+	1    -6250 450 
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED:WS2812B LED14
+U 1 1 5CE6FB33
+P -6250 1500
+F 0 "LED14" H -5909 1546 50  0000 L CNN
+F 1 "WS2812B" H -5909 1455 50  0000 L CNN
+F 2 "switches:LED_WS2812B-inverted" H -6200 1200 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H -6150 1125 50  0001 L TNN
+	1    -6250 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B LED15
+U 1 1 5CE6FB3A
+P -6250 2550
+F 0 "LED15" H -6591 2504 50  0000 R CNN
+F 1 "WS2812B" H -6591 2595 50  0000 R CNN
+F 2 "switches:LED_WS2812B-inverted" H -6200 2250 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H -6150 2175 50  0001 L TNN
+	1    -6250 2550
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED:WS2812B LED16
+U 1 1 5CE6FB41
+P -6250 3600
+F 0 "LED16" H -5909 3646 50  0000 L CNN
+F 1 "WS2812B" H -5909 3555 50  0000 L CNN
+F 2 "switches:LED_WS2812B-inverted" H -6200 3300 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H -6150 3225 50  0001 L TNN
+	1    -6250 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B LED17
+U 1 1 5CE6FB48
+P -6250 4700
+F 0 "LED17" H -6591 4654 50  0000 R CNN
+F 1 "WS2812B" H -6591 4745 50  0000 R CNN
+F 2 "switches:LED_WS2812B-inverted" H -6200 4400 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H -6150 4325 50  0001 L TNN
+	1    -6250 4700
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED:WS2812B LED18
+U 1 1 5CE6FB4F
+P -6250 5750
+F 0 "LED18" H -5909 5796 50  0000 L CNN
+F 1 "WS2812B" H -5909 5705 50  0000 L CNN
+F 2 "switches:LED_WS2812B-inverted" H -6200 5450 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H -6150 5375 50  0001 L TNN
+	1    -6250 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B LED1
+U 1 1 5CE8CB5B
+P -8650 450
+F 0 "LED1" H -8991 404 50  0000 R CNN
+F 1 "WS2812B" H -8991 495 50  0000 R CNN
+F 2 "switches:LED_WS2812B-inverted" H -8600 150 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H -8550 75  50  0001 L TNN
+	1    -8650 450 
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED:WS2812B LED2
+U 1 1 5CE8CB62
+P -8650 1500
+F 0 "LED2" H -8309 1546 50  0000 L CNN
+F 1 "WS2812B" H -8309 1455 50  0000 L CNN
+F 2 "switches:LED_WS2812B-inverted" H -8600 1200 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H -8550 1125 50  0001 L TNN
+	1    -8650 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B LED3
+U 1 1 5CE8CB69
+P -8650 2550
+F 0 "LED3" H -8991 2504 50  0000 R CNN
+F 1 "WS2812B" H -8991 2595 50  0000 R CNN
+F 2 "switches:LED_WS2812B-inverted" H -8600 2250 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H -8550 2175 50  0001 L TNN
+	1    -8650 2550
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED:WS2812B LED4
+U 1 1 5CE8CB70
+P -8650 3600
+F 0 "LED4" H -8309 3646 50  0000 L CNN
+F 1 "WS2812B" H -8309 3555 50  0000 L CNN
+F 2 "switches:LED_WS2812B-inverted" H -8600 3300 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H -8550 3225 50  0001 L TNN
+	1    -8650 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B LED5
+U 1 1 5CE8CB77
+P -8650 4700
+F 0 "LED5" H -8991 4654 50  0000 R CNN
+F 1 "WS2812B" H -8991 4745 50  0000 R CNN
+F 2 "switches:LED_WS2812B-inverted" H -8600 4400 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H -8550 4325 50  0001 L TNN
+	1    -8650 4700
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED:WS2812B LED6
+U 1 1 5CE8CB7E
+P -8650 5750
+F 0 "LED6" H -8309 5796 50  0000 L CNN
+F 1 "WS2812B" H -8309 5705 50  0000 L CNN
+F 2 "switches:LED_WS2812B-inverted" H -8600 5450 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H -8550 5375 50  0001 L TNN
+	1    -8650 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B LED8
+U 1 1 5CEA6E02
+P -7450 1500
+F 0 "LED8" H -7109 1546 50  0000 L CNN
+F 1 "WS2812B" H -7109 1455 50  0000 L CNN
+F 2 "switches:LED_WS2812B-inverted" H -7400 1200 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H -7350 1125 50  0001 L TNN
+	1    -7450 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B LED9
+U 1 1 5CEA6E09
+P -7450 2550
+F 0 "LED9" H -7791 2504 50  0000 R CNN
+F 1 "WS2812B" H -7791 2595 50  0000 R CNN
+F 2 "switches:LED_WS2812B-inverted" H -7400 2250 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H -7350 2175 50  0001 L TNN
+	1    -7450 2550
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED:WS2812B LED11
+U 1 1 5CEA6E17
+P -7450 4700
+F 0 "LED11" H -7791 4654 50  0000 R CNN
+F 1 "WS2812B" H -7791 4745 50  0000 R CNN
+F 2 "switches:LED_WS2812B-inverted" H -7400 4400 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H -7350 4325 50  0001 L TNN
+	1    -7450 4700
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED:WS2812B LED12
+U 1 1 5CEA6E1E
+P -7450 5750
+F 0 "LED12" H -7109 5796 50  0000 L CNN
+F 1 "WS2812B" H -7109 5705 50  0000 L CNN
+F 2 "switches:LED_WS2812B-inverted" H -7400 5450 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H -7350 5375 50  0001 L TNN
+	1    -7450 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B LED45
+U 1 1 5CEB4CBE
+P -450 6850
+F 0 "LED45" V -600 7200 50  0000 L CNN
+F 1 "WS2812B" V -700 6950 50  0000 L CNN
+F 2 "switches:LED_WS2812B-inverted" H -400 6550 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H -350 6475 50  0001 L TNN
+	1    -450 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B LED48
+U 1 1 5CEB55F3
+P 600 6850
+F 0 "LED48" V 450 7200 50  0000 L CNN
+F 1 "WS2812B" V 350 6950 50  0000 L CNN
+F 2 "switches:LED_WS2812B-inverted" H 650 6550 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 700 6475 50  0001 L TNN
+	1    600  6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B LED51
+U 1 1 5CEB5C69
+P 1650 6850
+F 0 "LED51" H 1991 6896 50  0000 L CNN
+F 1 "WS2812B" H 1991 6805 50  0000 L CNN
+F 2 "switches:LED_WS2812B-inverted" H 1700 6550 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 1750 6475 50  0001 L TNN
+	1    1650 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B LED53
+U 1 1 5CEDBFDE
+P 1650 8600
+F 0 "LED53" V 2036 8600 50  0000 C CNN
+F 1 "WS2812B" V 2127 8600 50  0000 C CNN
+F 2 "switches:LED_WS2812B-inverted" H 1700 8300 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 1750 8225 50  0001 L TNN
+	1    1650 8600
+	0    1    1    0   
+$EndComp
+$Comp
+L LED:WS2812B LED50
+U 1 1 5CEDC64D
+P 600 8600
+F 0 "LED50" V 214 8600 50  0000 C CNN
+F 1 "WS2812B" V 123 8600 50  0000 C CNN
+F 2 "switches:LED_WS2812B-inverted" H 650 8300 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 700 8225 50  0001 L TNN
+	1    600  8600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED:WS2812B LED49
+U 1 1 5CEDCD70
+P 600 7700
+F 0 "LED49" V 350 7400 50  0000 L CNN
+F 1 "WS2812B" V 350 7700 50  0000 L CNN
+F 2 "switches:LED_WS2812B-inverted" H 650 7400 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 700 7325 50  0001 L TNN
+	1    600  7700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED:WS2812B LED46
+U 1 1 5CEDD51F
+P -450 7700
+F 0 "LED46" V -600 7950 50  0000 L CNN
+F 1 "WS2812B" V -700 7700 50  0000 L CNN
+F 2 "switches:LED_WS2812B-inverted" H -400 7400 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H -350 7325 50  0001 L TNN
+	1    -450 7700
+	0    1    1    0   
+$EndComp
+$Comp
+L LED:WS2812B LED47
+U 1 1 5CEDD6A9
+P -450 8600
+F 0 "LED47" V -64 8600 50  0000 C CNN
+F 1 "WS2812B" V 27  8600 50  0000 C CNN
+F 2 "switches:LED_WS2812B-inverted" H -400 8300 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H -350 8225 50  0001 L TNN
+	1    -450 8600
+	0    1    1    0   
+$EndComp
+$Comp
+L LED:WS2812B LED52
+U 1 1 5CEDBA04
+P 1650 7800
+F 0 "LED52" V 1500 8100 50  0000 L CNN
+F 1 "WS2812B" V 1400 7800 50  0000 L CNN
+F 2 "switches:LED_WS2812B-inverted" H 1700 7500 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 1750 7425 50  0001 L TNN
+	1    1650 7800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1950 7400 1650 7400
+Wire Wire Line
+	1650 7400 1650 7500
+Wire Wire Line
+	1950 6850 1950 7400
+Wire Wire Line
+	1650 8100 1650 8300
+Wire Wire Line
+	600  8300 600  8000
+Wire Wire Line
+	-450 8000 -450 8300
+Wire Wire Line
+	-1100 8400 -1100 8900
+$Comp
+L power:GND #PWR0123
+U 1 1 5CF77A93
+P -750 7700
+F 0 "#PWR0123" H -750 7450 50  0001 C CNN
+F 1 "GND" V -745 7572 50  0000 R CNN
+F 2 "" H -750 7700 50  0001 C CNN
+F 3 "" H -750 7700 50  0001 C CNN
+	1    -750 7700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-150 6850 300  6850
+Wire Wire Line
+	900  6850 1350 6850
+Wire Wire Line
+	600  8900 1650 8900
+Wire Wire Line
+	-450 7400 600  7400
+Wire Wire Line
+	-1100 8900 -450 8900
+$Comp
+L power:GND #PWR0124
+U 1 1 5CFDCE5F
+P -750 8600
+F 0 "#PWR0124" H -750 8350 50  0001 C CNN
+F 1 "GND" V -745 8472 50  0000 R CNN
+F 2 "" H -750 8600 50  0001 C CNN
+F 3 "" H -750 8600 50  0001 C CNN
+	1    -750 8600
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0125
+U 1 1 5CFDCFAA
+P 900 7700
+F 0 "#PWR0125" H 900 7450 50  0001 C CNN
+F 1 "GND" V 905 7572 50  0000 R CNN
+F 2 "" H 900 7700 50  0001 C CNN
+F 3 "" H 900 7700 50  0001 C CNN
+	1    900  7700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0126
+U 1 1 5CFDD235
+P 1100 8600
+F 0 "#PWR0126" H 1100 8350 50  0001 C CNN
+F 1 "GND" H 1105 8427 50  0000 C CNN
+F 2 "" H 1100 8600 50  0001 C CNN
+F 3 "" H 1100 8600 50  0001 C CNN
+	1    1100 8600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	900  8600 1100 8600
+Connection ~ 1100 8600
+Wire Wire Line
+	1100 8600 1350 8600
+$Comp
+L power:GND #PWR0127
+U 1 1 5CFE98AA
+P -1400 7800
+F 0 "#PWR0127" H -1400 7550 50  0001 C CNN
+F 1 "GND" H -1300 7700 50  0000 C CNN
+F 2 "" H -1400 7800 50  0001 C CNN
+F 3 "" H -1400 7800 50  0001 C CNN
+	1    -1400 7800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 1050 5950 1600
+Wire Wire Line
+	1750 1050 1750 1600
+Wire Wire Line
+	2450 1050 2450 1600
+Wire Wire Line
+	3150 1050 3150 1600
+Wire Wire Line
+	3850 1050 3850 1600
+Wire Wire Line
+	4550 1050 4550 1600
+Wire Wire Line
+	5250 1050 5250 1600
+$Comp
+L Switch:SW_Push SW1
+U 1 1 5D03DDCB
+P 1950 1600
+F 0 "SW1" H 1950 1865 50  0000 C CNN
+F 1 "SW_Push_mod" H 1950 1774 50  0000 C CNN
+F 2 "switches:SW_Cherry_MX_1.00u_PCB_dual" H 1950 1850 50  0001 C CNN
+F 3 "" H 1950 1850 50  0001 C CNN
+	1    1950 1600
+	1    0    0    -1  
+$EndComp
+Connection ~ 1750 1600
+Wire Wire Line
+	1750 1600 1750 2400
+$Comp
+L Switch:SW_Push SW7
+U 1 1 5D03DFE2
+P 2650 1600
+F 0 "SW7" H 2650 1865 50  0000 C CNN
+F 1 "SW_Push_mod" H 2650 1774 50  0000 C CNN
+F 2 "switches:SW_Cherry_MX_1.00u_PCB_dual" H 2650 1850 50  0001 C CNN
+F 3 "" H 2650 1850 50  0001 C CNN
+	1    2650 1600
+	1    0    0    -1  
+$EndComp
+Connection ~ 2450 1600
+Wire Wire Line
+	2450 1600 2450 2400
+$Comp
+L Switch:SW_Push SW13
+U 1 1 5D03E132
+P 3350 1600
+F 0 "SW13" H 3350 1865 50  0000 C CNN
+F 1 "SW_Push_mod" H 3350 1774 50  0000 C CNN
+F 2 "switches:SW_Cherry_MX_1.00u_PCB_dual" H 3350 1850 50  0001 C CNN
+F 3 "" H 3350 1850 50  0001 C CNN
+	1    3350 1600
+	1    0    0    -1  
+$EndComp
+Connection ~ 3150 1600
+Wire Wire Line
+	3150 1600 3150 2400
+$Comp
+L Switch:SW_Push SW19
+U 1 1 5D03E28C
+P 4050 1600
+F 0 "SW19" H 4050 1865 50  0000 C CNN
+F 1 "SW_Push_mod" H 4050 1774 50  0000 C CNN
+F 2 "switches:SW_Cherry_MX_1.00u_PCB_dual" H 4050 1850 50  0001 C CNN
+F 3 "" H 4050 1850 50  0001 C CNN
+	1    4050 1600
+	1    0    0    -1  
+$EndComp
+Connection ~ 3850 1600
+Wire Wire Line
+	3850 1600 3850 2400
+$Comp
+L Switch:SW_Push SW25
+U 1 1 5D03E3E6
+P 4750 1600
+F 0 "SW25" H 4750 1865 50  0000 C CNN
+F 1 "SW_Push_mod" H 4750 1774 50  0000 C CNN
+F 2 "switches:SW_Cherry_MX_1.00u_PCB_dual" H 4750 1850 50  0001 C CNN
+F 3 "" H 4750 1850 50  0001 C CNN
+	1    4750 1600
+	1    0    0    -1  
+$EndComp
+Connection ~ 4550 1600
+Wire Wire Line
+	4550 1600 4550 2400
+$Comp
+L Switch:SW_Push SW31
+U 1 1 5D03E546
+P 5450 1600
+F 0 "SW31" H 5450 1865 50  0000 C CNN
+F 1 "SW_Push_mod" H 5450 1774 50  0000 C CNN
+F 2 "switches:SW_Cherry_MX_1.00u_PCB_dual" H 5450 1850 50  0001 C CNN
+F 3 "" H 5450 1850 50  0001 C CNN
+	1    5450 1600
+	1    0    0    -1  
+$EndComp
+Connection ~ 5250 1600
+Wire Wire Line
+	5250 1600 5250 2400
+$Comp
+L Switch:SW_Push SW37
+U 1 1 5D03E6A0
+P 6150 1600
+F 0 "SW37" H 6150 1865 50  0000 C CNN
+F 1 "SW_Push_mod" H 6150 1774 50  0000 C CNN
+F 2 "switches:SW_Cherry_MX_1.00u_PCB_dual" H 6150 1850 50  0001 C CNN
+F 3 "" H 6150 1850 50  0001 C CNN
+	1    6150 1600
+	1    0    0    -1  
+$EndComp
+Connection ~ 5950 1600
+Wire Wire Line
+	5950 1600 5950 2400
+Text GLabel 10150 3250 2    50   Input ~ 0
+LED_IN
+$Comp
+L power:GND #PWR0135
+U 1 1 5D184236
+P -450 7150
+F 0 "#PWR0135" H -450 6900 50  0001 C CNN
+F 1 "GND" H -445 6977 50  0000 C CNN
+F 2 "" H -450 7150 50  0001 C CNN
+F 3 "" H -450 7150 50  0001 C CNN
+	1    -450 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B LED7
+U 1 1 5CEA6DFB
+P -7450 450
+F 0 "LED7" H -7791 404 50  0000 R CNN
+F 1 "WS2812B" H -7791 495 50  0000 R CNN
+F 2 "switches:LED_WS2812B-inverted" H -7400 150 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H -7350 75  50  0001 L TNN
+	1    -7450 450 
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED:WS2812B LED10
+U 1 1 5CEA6E10
+P -7450 3600
+F 0 "LED10" H -7109 3646 50  0000 L CNN
+F 1 "WS2812B" H -7109 3555 50  0000 L CNN
+F 2 "switches:LED_WS2812B-inverted" H -7400 3300 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H -7350 3225 50  0001 L TNN
+	1    -7450 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B LED21
+U 1 1 5CE5086B
+P -5050 2550
+F 0 "LED21" H -5391 2504 50  0000 R CNN
+F 1 "WS2812B" H -5391 2595 50  0000 R CNN
+F 2 "switches:LED_WS2812B-inverted" H -5000 2250 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H -4950 2175 50  0001 L TNN
+	1    -5050 2550
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED:WS2812B LED24
+U 1 1 5CE50880
+P -5050 5750
+F 0 "LED24" H -4709 5796 50  0000 L CNN
+F 1 "WS2812B" H -4709 5705 50  0000 L CNN
+F 2 "switches:LED_WS2812B-inverted" H -5000 5450 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H -4950 5375 50  0001 L TNN
+	1    -5050 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B LED27
+U 1 1 5CD6FCBE
+P -4000 2550
+F 0 "LED27" H -4341 2504 50  0000 R CNN
+F 1 "WS2812B" H -4341 2595 50  0000 R CNN
+F 2 "switches:LED_WS2812B-inverted" H -3950 2250 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H -3900 2175 50  0001 L TNN
+	1    -4000 2550
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED:WS2812B LED25
+U 1 1 5CD6F44D
+P -4000 450
+F 0 "LED25" H -4341 404 50  0000 R CNN
+F 1 "WS2812B" H -4341 495 50  0000 R CNN
+F 2 "switches:LED_WS2812B-inverted" H -3950 150 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H -3900 75  50  0001 L TNN
+	1    -4000 450 
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	-1550 -100 -2800 -100
+Wire Wire Line
+	-8650 -100 -8650 150 
+Wire Wire Line
+	-7450 150  -7450 -100
+Connection ~ -7450 -100
+Wire Wire Line
+	-7450 -100 -8650 -100
+Wire Wire Line
+	-6250 150  -6250 -100
+Connection ~ -6250 -100
+Wire Wire Line
+	-6250 -100 -7450 -100
+Wire Wire Line
+	-5050 150  -5050 -100
+Connection ~ -5050 -100
+Wire Wire Line
+	-5050 -100 -6250 -100
+Wire Wire Line
+	-4000 150  -4000 -100
+Connection ~ -4000 -100
+Wire Wire Line
+	-4000 -100 -5050 -100
+Wire Wire Line
+	-2800 150  -2800 -100
+Connection ~ -2800 -100
+Wire Wire Line
+	-2800 -100 -4000 -100
+Wire Wire Line
+	-1550 150  -1550 -100
+$Comp
+L power:GND #PWR0106
+U 1 1 5D41B529
+P -1550 -100
+F 0 "#PWR0106" H -1550 -350 50  0001 C CNN
+F 1 "GND" H -1545 -273 50  0000 C CNN
+F 2 "" H -1550 -100 50  0001 C CNN
+F 3 "" H -1550 -100 50  0001 C CNN
+	1    -1550 -100
+	-1   0    0    1   
+$EndComp
+Connection ~ -1550 -100
+Wire Wire Line
+	-1550 750  -1550 950 
+Wire Wire Line
+	-1550 950  -2800 950 
+Wire Wire Line
+	-8650 950  -8650 750 
+Wire Wire Line
+	-7450 950  -7450 750 
+Connection ~ -7450 950 
+Wire Wire Line
+	-7450 950  -8650 950 
+Wire Wire Line
+	-6250 950  -6250 750 
+Connection ~ -6250 950 
+Wire Wire Line
+	-6250 950  -7450 950 
+Wire Wire Line
+	-5050 950  -5050 750 
+Connection ~ -5050 950 
+Wire Wire Line
+	-5050 950  -6250 950 
+Wire Wire Line
+	-4000 950  -4000 750 
+Connection ~ -4000 950 
+Wire Wire Line
+	-4000 950  -5050 950 
+Wire Wire Line
+	-2800 950  -2800 750 
+Connection ~ -2800 950 
+Wire Wire Line
+	-2800 950  -4000 950 
+Wire Wire Line
+	-1850 450  -2500 450 
+Wire Wire Line
+	-3100 450  -3700 450 
+Wire Wire Line
+	-4300 450  -4750 450 
+Wire Wire Line
+	-6550 450  -7150 450 
+Wire Wire Line
+	-7750 450  -8350 450 
+Wire Wire Line
+	-8950 450  -9250 450 
+Wire Wire Line
+	-9250 450  -9250 1500
+Wire Wire Line
+	-9250 1500 -8950 1500
+Wire Wire Line
+	-8350 1500 -7750 1500
+Wire Wire Line
+	-7150 1500 -6550 1500
+Wire Wire Line
+	-5950 1500 -5350 1500
+Wire Wire Line
+	-4300 1500 -4750 1500
+Wire Wire Line
+	-3700 1500 -3100 1500
+Wire Wire Line
+	-2500 1500 -1850 1500
+Wire Wire Line
+	-1550 950  -1550 1200
+Connection ~ -1550 950 
+Wire Wire Line
+	-2800 950  -2800 1200
+Wire Wire Line
+	-4000 1200 -4000 950 
+Wire Wire Line
+	-5050 950  -5050 1200
+Wire Wire Line
+	-6250 1200 -6250 950 
+Wire Wire Line
+	-7450 1200 -7450 950 
+Wire Wire Line
+	-8650 1200 -8650 950 
+Connection ~ -8650 950 
+Wire Wire Line
+	-8650 1800 -8650 2000
+Wire Wire Line
+	-8650 2000 -7450 2000
+Wire Wire Line
+	-1550 2000 -1550 1800
+Connection ~ -8650 2000
+Wire Wire Line
+	-8650 2000 -8650 2250
+Wire Wire Line
+	-1550 2000 -1550 2250
+Connection ~ -1550 2000
+Wire Wire Line
+	-2800 2250 -2800 2000
+Connection ~ -2800 2000
+Wire Wire Line
+	-2800 2000 -1550 2000
+Wire Wire Line
+	-2800 1800 -2800 2000
+Wire Wire Line
+	-4000 2250 -4000 2000
+Connection ~ -4000 2000
+Wire Wire Line
+	-4000 2000 -2800 2000
+Wire Wire Line
+	-4000 2000 -4000 1800
+Wire Wire Line
+	-5050 1800 -5050 2000
+Connection ~ -5050 2000
+Wire Wire Line
+	-5050 2000 -4000 2000
+Wire Wire Line
+	-5050 2000 -5050 2250
+Wire Wire Line
+	-6250 2000 -6250 1800
+Connection ~ -6250 2000
+Wire Wire Line
+	-6250 2000 -5050 2000
+Wire Wire Line
+	-6250 2000 -6250 2250
+Wire Wire Line
+	-7450 2250 -7450 2000
+Connection ~ -7450 2000
+Wire Wire Line
+	-7450 2000 -6250 2000
+Wire Wire Line
+	-7450 2000 -7450 1800
+Wire Wire Line
+	-1250 1500 -850 1500
+Wire Wire Line
+	-850 1500 -850 2550
+Wire Wire Line
+	-850 2550 -1250 2550
+Wire Wire Line
+	-1850 2550 -2500 2550
+Wire Wire Line
+	-3100 2550 -3700 2550
+Wire Wire Line
+	-4300 2550 -4750 2550
+Wire Wire Line
+	-5350 2550 -5950 2550
+Wire Wire Line
+	-6550 2550 -7150 2550
+Wire Wire Line
+	-7750 2550 -8350 2550
+Wire Wire Line
+	-8650 2850 -8650 3050
+Wire Wire Line
+	-8650 3050 -7450 3050
+Wire Wire Line
+	-1550 3050 -1550 3300
+Connection ~ -8650 3050
+Wire Wire Line
+	-8650 3050 -8650 3300
+Wire Wire Line
+	-1550 3050 -1550 2850
+Connection ~ -1550 3050
+Wire Wire Line
+	-2800 3050 -2800 2850
+Connection ~ -2800 3050
+Wire Wire Line
+	-2800 3050 -1550 3050
+Wire Wire Line
+	-2800 3050 -2800 3300
+Wire Wire Line
+	-4000 3300 -4000 3050
+Connection ~ -4000 3050
+Wire Wire Line
+	-4000 3050 -2800 3050
+Wire Wire Line
+	-4000 2850 -4000 3050
+Wire Wire Line
+	-5050 2850 -5050 3050
+Connection ~ -5050 3050
+Wire Wire Line
+	-5050 3050 -4000 3050
+Wire Wire Line
+	-5050 3050 -5050 3300
+Wire Wire Line
+	-6250 3300 -6250 3050
+Connection ~ -6250 3050
+Wire Wire Line
+	-6250 3050 -5050 3050
+Wire Wire Line
+	-6250 2850 -6250 3050
+Wire Wire Line
+	-7450 3300 -7450 3050
+Connection ~ -7450 3050
+Wire Wire Line
+	-7450 3050 -6250 3050
+Wire Wire Line
+	-7450 3050 -7450 2850
+Wire Wire Line
+	-1250 3600 -850 3600
+Wire Wire Line
+	-850 3600 -850 4700
+Wire Wire Line
+	-850 4700 -1250 4700
+Wire Wire Line
+	-1850 4700 -2500 4700
+Wire Wire Line
+	-3700 4700 -3100 4700
+Wire Wire Line
+	-4300 4700 -4750 4700
+Wire Wire Line
+	-5950 4700 -5350 4700
+Wire Wire Line
+	-6550 4700 -7150 4700
+Wire Wire Line
+	-7750 4700 -8350 4700
+Wire Wire Line
+	-8950 4700 -9200 4700
+Wire Wire Line
+	-9200 4700 -9200 5750
+Wire Wire Line
+	-9200 5750 -8950 5750
+Wire Wire Line
+	-8350 5750 -7750 5750
+Wire Wire Line
+	-7150 5750 -6550 5750
+Wire Wire Line
+	-5950 5750 -5350 5750
+Wire Wire Line
+	-4750 5750 -4300 5750
+Wire Wire Line
+	-3700 5750 -3100 5750
+Wire Wire Line
+	-1550 5000 -1550 5200
+Wire Wire Line
+	-1550 5200 -2800 5200
+Wire Wire Line
+	-8650 5200 -8650 5000
+Wire Wire Line
+	-8650 5200 -8650 5450
+Connection ~ -8650 5200
+Wire Wire Line
+	-7450 5450 -7450 5200
+Connection ~ -7450 5200
+Wire Wire Line
+	-7450 5200 -8650 5200
+Wire Wire Line
+	-7450 5000 -7450 5200
+Wire Wire Line
+	-6250 5000 -6250 5200
+Connection ~ -6250 5200
+Wire Wire Line
+	-6250 5200 -7450 5200
+Wire Wire Line
+	-6250 5200 -6250 5450
+Wire Wire Line
+	-5050 5000 -5050 5200
+Connection ~ -5050 5200
+Wire Wire Line
+	-5050 5200 -6250 5200
+Wire Wire Line
+	-5050 5200 -5050 5450
+Wire Wire Line
+	-4000 5000 -4000 5200
+Connection ~ -4000 5200
+Wire Wire Line
+	-4000 5200 -5050 5200
+Wire Wire Line
+	-4000 5200 -4000 5450
+Wire Wire Line
+	-2800 5000 -2800 5200
+Connection ~ -2800 5200
+Wire Wire Line
+	-2800 5200 -4000 5200
+Wire Wire Line
+	-2800 5200 -2800 5450
+Wire Wire Line
+	-1550 3900 -1550 4100
+Wire Wire Line
+	-1550 4100 -2800 4100
+Wire Wire Line
+	-2800 4100 -2800 3900
+Connection ~ -1550 4100
+Wire Wire Line
+	-1550 4100 -1550 4400
+Wire Wire Line
+	-2800 4100 -2800 4400
+Connection ~ -2800 4100
+Wire Wire Line
+	-2800 4100 -4000 4100
+Wire Wire Line
+	-4000 4100 -4000 3900
+Wire Wire Line
+	-4000 4100 -4000 4400
+Connection ~ -4000 4100
+Wire Wire Line
+	-4000 4100 -5050 4100
+Wire Wire Line
+	-5050 4100 -5050 3900
+Wire Wire Line
+	-5050 4100 -5050 4400
+Connection ~ -5050 4100
+Wire Wire Line
+	-6250 3900 -6250 4100
+Wire Wire Line
+	-6250 4100 -5050 4100
+Wire Wire Line
+	-6250 4400 -6250 4100
+Connection ~ -6250 4100
+Wire Wire Line
+	-6250 4100 -7450 4100
+Wire Wire Line
+	-7450 4100 -7450 3900
+Wire Wire Line
+	-7450 4100 -8650 4100
+Wire Wire Line
+	-8650 4100 -8650 3900
+Connection ~ -7450 4100
+Wire Wire Line
+	-8650 4100 -8650 4400
+Connection ~ -8650 4100
+Wire Wire Line
+	-7450 4100 -7450 4400
+Wire Wire Line
+	-8950 2550 -9150 2550
+Wire Wire Line
+	-9150 2550 -9150 3600
+Wire Wire Line
+	-9150 3600 -8950 3600
+Wire Wire Line
+	-2500 5750 -1550 5750
+$Comp
+L power:GND #PWR0107
+U 1 1 5DFE1180
+P -1550 2000
+F 0 "#PWR0107" H -1550 1750 50  0001 C CNN
+F 1 "GND" V -1545 1872 50  0000 R CNN
+F 2 "" H -1550 2000 50  0001 C CNN
+F 3 "" H -1550 2000 50  0001 C CNN
+	1    -1550 2000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	-8650 6450 -8650 6050
+Wire Wire Line
+	-2800 6050 -2800 6450
+Wire Wire Line
+	-7450 6050 -7450 6450
+Wire Wire Line
+	-8650 6450 -7450 6450
+Connection ~ -7450 6450
+Wire Wire Line
+	-7450 6450 -6250 6450
+Wire Wire Line
+	-6250 6050 -6250 6450
+Connection ~ -6250 6450
+Wire Wire Line
+	-6250 6450 -5050 6450
+Wire Wire Line
+	-5050 6050 -5050 6450
+Connection ~ -5050 6450
+Wire Wire Line
+	-5050 6450 -4000 6450
+Connection ~ -4000 6450
+Wire Wire Line
+	-4000 6450 -2800 6450
+Wire Wire Line
+	-4000 6050 -4000 6450
+Text GLabel -700 450  2    50   Input ~ 0
+ledinput
+Wire Wire Line
+	-1250 450  -700 450 
+$Comp
+L power:VBUS #PWR0105
+U 1 1 5E0EF9E7
+P -1550 950
+F 0 "#PWR0105" H -1550 800 50  0001 C CNN
+F 1 "VBUS" V -1535 1078 50  0000 L CNN
+F 2 "" H -1550 950 50  0001 C CNN
+F 3 "" H -1550 950 50  0001 C CNN
+	1    -1550 950 
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0108
+U 1 1 5DFE241C
+P -1550 4100
+F 0 "#PWR0108" H -1550 3850 50  0001 C CNN
+F 1 "GND" V -1545 3972 50  0000 R CNN
+F 2 "" H -1550 4100 50  0001 C CNN
+F 3 "" H -1550 4100 50  0001 C CNN
+	1    -1550 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:VBUS #PWR0109
+U 1 1 5E0F1D35
+P -1550 5200
+F 0 "#PWR0109" H -1550 5050 50  0001 C CNN
+F 1 "VBUS" V -1535 5328 50  0000 L CNN
+F 2 "" H -1550 5200 50  0001 C CNN
+F 3 "" H -1550 5200 50  0001 C CNN
+	1    -1550 5200
+	0    1    1    0   
+$EndComp
+Connection ~ -1550 5200
+$Comp
+L power:VBUS #PWR0110
+U 1 1 5E0F1E7C
+P -1550 3050
+F 0 "#PWR0110" H -1550 2900 50  0001 C CNN
+F 1 "VBUS" V -1535 3178 50  0000 L CNN
+F 2 "" H -1550 3050 50  0001 C CNN
+F 3 "" H -1550 3050 50  0001 C CNN
+	1    -1550 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VBUS #PWR0111
+U 1 1 5E0F3383
+P -1400 7200
+F 0 "#PWR0111" H -1400 7050 50  0001 C CNN
+F 1 "VBUS" H -1385 7373 50  0000 C CNN
+F 2 "" H -1400 7200 50  0001 C CNN
+F 3 "" H -1400 7200 50  0001 C CNN
+	1    -1400 7200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-150 8600 100  8600
+$Comp
+L power:VBUS #PWR0112
+U 1 1 5E0F4C59
+P -1400 8700
+F 0 "#PWR0112" H -1400 8550 50  0001 C CNN
+F 1 "VBUS" H -1385 8873 50  0000 C CNN
+F 2 "" H -1400 8700 50  0001 C CNN
+F 3 "" H -1400 8700 50  0001 C CNN
+	1    -1400 8700
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:VBUS #PWR0113
+U 1 1 5E0F5018
+P 100 8600
+F 0 "#PWR0113" H 100 8450 50  0001 C CNN
+F 1 "VBUS" H 115 8773 50  0000 C CNN
+F 2 "" H 100 8600 50  0001 C CNN
+F 3 "" H 100 8600 50  0001 C CNN
+	1    100  8600
+	-1   0    0    1   
+$EndComp
+Connection ~ 100  8600
+Wire Wire Line
+	100  8600 300  8600
+$Comp
+L power:VBUS #PWR0114
+U 1 1 5E0F5161
+P 50 7700
+F 0 "#PWR0114" H 50  7550 50  0001 C CNN
+F 1 "VBUS" H 50  7850 50  0000 C CNN
+F 2 "" H 50  7700 50  0001 C CNN
+F 3 "" H 50  7700 50  0001 C CNN
+	1    50   7700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	-150 7700 50   7700
+Connection ~ 50   7700
+Wire Wire Line
+	50   7700 300  7700
+Wire Wire Line
+	1350 7800 900  7800
+Wire Wire Line
+	900  7800 900  7700
+Connection ~ 900  7700
+$Comp
+L power:VBUS #PWR0115
+U 1 1 5E116737
+P 1950 7800
+F 0 "#PWR0115" H 1950 7650 50  0001 C CNN
+F 1 "VBUS" H 1950 7950 50  0000 C CNN
+F 2 "" H 1950 7800 50  0001 C CNN
+F 3 "" H 1950 7800 50  0001 C CNN
+	1    1950 7800
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VBUS #PWR0116
+U 1 1 5E116A58
+P 1950 8600
+F 0 "#PWR0116" H 1950 8450 50  0001 C CNN
+F 1 "VBUS" H 1950 8750 50  0000 C CNN
+F 2 "" H 1950 8600 50  0001 C CNN
+F 3 "" H 1950 8600 50  0001 C CNN
+	1    1950 8600
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VBUS #PWR0117
+U 1 1 5E116D89
+P 1650 6550
+F 0 "#PWR0117" H 1650 6400 50  0001 C CNN
+F 1 "VBUS" H 1650 6700 50  0000 C CNN
+F 2 "" H 1650 6550 50  0001 C CNN
+F 3 "" H 1650 6550 50  0001 C CNN
+	1    1650 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VBUS #PWR0118
+U 1 1 5E1170AA
+P 600 6550
+F 0 "#PWR0118" H 600 6400 50  0001 C CNN
+F 1 "VBUS" H 600 6700 50  0000 C CNN
+F 2 "" H 600 6550 50  0001 C CNN
+F 3 "" H 600 6550 50  0001 C CNN
+	1    600  6550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-5350 450  -5950 450 
+Wire Wire Line
+	11650 3200 11450 3200
+Wire Wire Line
+	11450 5200 11650 5200
+Wire Wire Line
+	11450 3200 11450 5200
+Wire Wire Line
+	11500 4700 11500 4900
+$Comp
+L power:VBUS #PWR0119
+U 1 1 5E1AAB5E
+P -450 6550
+F 0 "#PWR0119" H -450 6400 50  0001 C CNN
+F 1 "VBUS" H -435 6723 50  0000 C CNN
+F 2 "" H -450 6550 50  0001 C CNN
+F 3 "" H -450 6550 50  0001 C CNN
+	1    -450 6550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-1550 5750 -1550 6850
+Wire Wire Line
+	-1550 6850 -750 6850
+Wire Wire Line
+	-1700 7500 -1850 7500
+Wire Wire Line
+	-1850 7500 -1850 8400
+Wire Wire Line
+	-1850 8400 -1700 8400
+Text GLabel 3800 6950 1    50   Input ~ 0
+column5
+Wire Wire Line
+	3800 6950 3800 7600
+Connection ~ 3800 7600
+$Comp
+L power:GND #PWR?
+U 1 1 5C754416
+P -2800 6450
+F 0 "#PWR?" H -2800 6200 50  0001 C CNN
+F 1 "GND" V -2795 6322 50  0000 R CNN
+F 2 "" H -2800 6450 50  0001 C CNN
+F 3 "" H -2800 6450 50  0001 C CNN
+	1    -2800 6450
+	1    0    0    -1  
+$EndComp
+Connection ~ -2800 6450
 $EndSCHEMATC
