@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:ergodoxer-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -1456,9 +1455,9 @@ SCL
 Connection ~ 5600 7100
 Connection ~ 5600 7900
 Connection ~ 5600 8700
-Text GLabel 3500 8700 0    50   Input ~ 0
-row8
 Text GLabel 3500 7900 0    50   Input ~ 0
+row8
+Text GLabel 3500 7100 0    50   Input ~ 0
 row7
 Connection ~ 5900 6800
 Wire Wire Line
@@ -1470,7 +1469,7 @@ column7
 Wire Wire Line
 	5200 6400 5200 6800
 Connection ~ 5200 6800
-Text GLabel 3500 7100 0    50   Input ~ 0
+Text GLabel 3500 8700 0    50   Input ~ 0
 row6
 Wire Wire Line
 	3500 7100 4900 7100
