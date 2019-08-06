@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:ergodoxer-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -1029,54 +1029,6 @@ Wire Wire Line
 	4550 4800 4550 5600
 Wire Wire Line
 	2450 4800 2450 5600
-Text GLabel 7950 3050 0    50   Input ~ 0
-column7
-Text GLabel 7950 2950 0    50   Input ~ 0
-column6
-Text GLabel 10300 2650 2    50   Input ~ 0
-row1
-Text GLabel 10300 2750 2    50   Input ~ 0
-row2
-Text GLabel 10150 3050 2    50   Input ~ 0
-row3
-Text GLabel 8100 4650 0    50   Input ~ 0
-row4
-Text GLabel 8100 4550 0    50   Input ~ 0
-row5
-Text GLabel 8100 4150 0    50   Input ~ 0
-row6
-Text GLabel 7950 2850 0    50   Input ~ 0
-column5
-Text GLabel 10300 2950 2    50   Input ~ 0
-column4
-Text GLabel 7950 3150 0    50   Input ~ 0
-column3
-Text GLabel 7950 3250 0    50   Input ~ 0
-column2
-Text GLabel 7950 3350 0    50   Input ~ 0
-column1
-Wire Wire Line
-	7950 3250 8100 3250
-Wire Wire Line
-	8100 3150 7950 3150
-Wire Wire Line
-	7950 3050 8100 3050
-Wire Wire Line
-	8100 2950 7950 2950
-Wire Wire Line
-	7950 2850 8100 2850
-Wire Wire Line
-	8100 2750 7950 2750
-Wire Wire Line
-	7950 2650 8100 2650
-Wire Wire Line
-	10300 2650 10150 2650
-Wire Wire Line
-	10300 2750 10150 2750
-Wire Wire Line
-	10150 2950 10300 2950
-Wire Wire Line
-	10300 2850 10150 2850
 Connection ~ 1750 4800
 Connection ~ 2450 4800
 Connection ~ 3150 4800
@@ -1305,96 +1257,6 @@ Wire Wire Line
 Wire Wire Line
 	5900 7600 5900 8400
 Connection ~ 5900 7600
-Text GLabel 8100 4450 0    50   Input ~ 0
-column8
-Wire Wire Line
-	10150 2250 11150 2250
-$Comp
-L power:GND #PWR0101
-U 1 1 5C7EDEFD
-P 10150 2350
-F 0 "#PWR0101" H 10150 2100 50  0001 C CNN
-F 1 "GND" V 10155 2222 50  0000 R CNN
-F 2 "" H 10150 2350 50  0001 C CNN
-F 3 "" H 10150 2350 50  0001 C CNN
-	1    10150 2350
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR0102
-U 1 1 5C7EE3B3
-P 12250 2800
-F 0 "#PWR0102" H 12250 2550 50  0001 C CNN
-F 1 "GND" H 12255 2627 50  0000 C CNN
-F 2 "" H 12250 2800 50  0001 C CNN
-F 3 "" H 12250 2800 50  0001 C CNN
-	1    12250 2800
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR0103
-U 1 1 5C80408E
-P 8100 2450
-F 0 "#PWR0103" H 8100 2200 50  0001 C CNN
-F 1 "GND" H 8105 2277 50  0000 C CNN
-F 2 "" H 8100 2450 50  0001 C CNN
-F 3 "" H 8100 2450 50  0001 C CNN
-	1    8100 2450
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR0104
-U 1 1 5C80437F
-P 8100 2550
-F 0 "#PWR0104" H 8100 2300 50  0001 C CNN
-F 1 "GND" H 8105 2377 50  0000 C CNN
-F 2 "" H 8100 2550 50  0001 C CNN
-F 3 "" H 8100 2550 50  0001 C CNN
-	1    8100 2550
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector:USB_C_Receptacle J1
-U 1 1 5C812CD0
-P 12250 4400
-F 0 "J1" H 11821 4098 50  0000 R CNN
-F 1 "USB_C_Receptacle" H 11821 4189 50  0000 R CNN
-F 2 "Connectors_USB:USB_C_Receptacle_GCT_USB4085" H 12400 4400 50  0001 C CNN
-F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 12400 4400 50  0001 C CNN
-	1    12250 4400
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	11150 2250 11150 5400
-Wire Wire Line
-	11150 5400 11650 5400
-Wire Wire Line
-	11650 4900 11500 4900
-Wire Wire Line
-	11500 4700 11650 4700
-NoConn ~ 8100 3700
-NoConn ~ 8100 2350
-NoConn ~ 8100 2250
-NoConn ~ 10150 2450
-NoConn ~ 10150 2550
-NoConn ~ 10150 3550
-NoConn ~ 10150 3650
-NoConn ~ 10150 3750
-NoConn ~ 10150 3850
-NoConn ~ 10150 4450
-NoConn ~ 10150 4550
-NoConn ~ 8750 1950
-NoConn ~ 8850 1950
-NoConn ~ 8950 1950
-NoConn ~ 9300 1950
-Text GLabel 7950 2650 0    50   Input ~ 0
-SDA
-Text GLabel 7950 2750 0    50   Input ~ 0
-SCL
-Text GLabel 11450 4300 0    50   Input ~ 0
-SDA
-Text GLabel 11500 4700 1    50   Input ~ 0
-SCL
 Connection ~ 5600 7100
 Connection ~ 5600 7900
 Text GLabel 3500 7900 0    50   Input ~ 0
@@ -1419,12 +1281,6 @@ Text GLabel 4500 6550 1    50   Input ~ 0
 column6
 Wire Wire Line
 	4500 6550 4500 6800
-Wire Wire Line
-	7950 3350 8100 3350
-Text GLabel 8100 4250 0    50   Input ~ 0
-row7
-Text GLabel 8100 4350 0    50   Input ~ 0
-row8
 $Comp
 L power:GND #PWR0121
 U 1 1 5C7F1FCB
@@ -2036,8 +1892,6 @@ $EndComp
 Connection ~ 5950 1600
 Wire Wire Line
 	5950 1600 5950 2400
-Text GLabel 10150 3250 2    50   Input ~ 0
-LED_IN
 $Comp
 L power:GND #PWR0135
 U 1 1 5D184236
@@ -2600,14 +2454,6 @@ F 3 "" H 600 6550 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	-5350 450  -5950 450 
-Wire Wire Line
-	11650 3200 11450 3200
-Wire Wire Line
-	11450 5200 11650 5200
-Wire Wire Line
-	11450 3200 11450 5200
-Wire Wire Line
-	11500 4700 11500 4900
 $Comp
 L power:VBUS #PWR0119
 U 1 1 5E1AAB5E
@@ -2767,26 +2613,285 @@ F 3 "" H 1650 8900 50  0001 C CNN
 	1    1650 8900
 	1    0    0    -1  
 $EndComp
+Text Notes 6800 3550 0    50   ~ 0
+TODO:
+Text Notes 6800 3650 0    50   ~ 0
+LED capacitors
 $Comp
-L proton_c:proton_c U1
-U 1 1 5C71A34D
-P 9150 3250
-F 0 "U1" H 9125 1728 50  0000 C CNN
-F 1 "proton_c" H 9125 1637 50  0000 C CNN
-F 2 "protonc:proton_c" H 9000 3250 50  0001 C CNN
-F 3 "" H 9000 3250 50  0001 C CNN
-	1    9150 3250
+L neutron_c_lib:neutron-c U1
+U 1 1 5D5A2C2A
+P 8600 1850
+F 0 "U1" H 8550 1850 50  0000 L CNN
+F 1 "neutron-c" H 8400 1700 50  0000 L CNN
+F 2 "neutron-c:neutron-c" H 8600 1850 50  0001 C CNN
+F 3 "" H 8600 1850 50  0001 C CNN
+	1    8600 1850
 	1    0    0    -1  
 $EndComp
+Text GLabel 7900 1150 0    50   Input ~ 0
+column5
+Text GLabel 7900 1250 0    50   Input ~ 0
+column6
+Text GLabel 7900 1950 0    50   Input ~ 0
+column3
+Text GLabel 7900 2150 0    50   Input ~ 0
+column2
+Text GLabel 7900 2050 0    50   Input ~ 0
+column1
+Text GLabel 7900 1350 0    50   Input ~ 0
+column7
+Text GLabel 9400 2350 2    50   Input ~ 0
+row7
+Text GLabel 9400 2450 2    50   Input ~ 0
+row6
 $Comp
-L power:GND #PWR?
-U 1 1 5C9FA8A8
-P 12550 2800
-F 0 "#PWR?" H 12550 2550 50  0001 C CNN
-F 1 "GND" H 12555 2627 50  0000 C CNN
-F 2 "" H 12550 2800 50  0001 C CNN
-F 3 "" H 12550 2800 50  0001 C CNN
-	1    12550 2800
-	-1   0    0    1   
+L power:GND #PWR0101
+U 1 1 5D60CCCA
+P 7900 2750
+F 0 "#PWR0101" H 7900 2500 50  0001 C CNN
+F 1 "GND" V 7905 2622 50  0000 R CNN
+F 2 "" H 7900 2750 50  0001 C CNN
+F 3 "" H 7900 2750 50  0001 C CNN
+	1    7900 2750
+	0    1    1    0   
 $EndComp
+Text GLabel 9400 2050 2    50   Input ~ 0
+row1
+Text GLabel 9400 2150 2    50   Input ~ 0
+row2
+Text GLabel 7900 1450 0    50   Input ~ 0
+uart1_tx
+Text GLabel 7900 1550 0    50   Input ~ 0
+uart1_rx
+Text GLabel 9400 1450 2    50   Input ~ 0
+uart3_tx
+Text GLabel 9400 1350 2    50   Input ~ 0
+uart3_rx
+Text GLabel 9400 1850 2    50   Input ~ 0
+miso1
+Text GLabel 9400 1950 2    50   Input ~ 0
+sclk1
+$Comp
+L Connector:USB_C_Receptacle_USB2.0 J1
+U 1 1 5D6BCB92
+P 10250 5250
+F 0 "J1" H 9820 5189 50  0000 R CNN
+F 1 "USB_C_Receptacle_USB2.0" H 9820 5098 50  0000 R CNN
+F 2 "Connectors_USB:USB_C_Receptacle_GCT_USB4085" H 10400 5250 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 10400 5250 50  0001 C CNN
+	1    10250 5250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 5D7D4FED
+P 10400 6250
+F 0 "#PWR0104" H 10400 6000 50  0001 C CNN
+F 1 "GND" H 10405 6077 50  0000 C CNN
+F 2 "" H 10400 6250 50  0001 C CNN
+F 3 "" H 10400 6250 50  0001 C CNN
+	1    10400 6250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10250 6150 10250 6250
+Wire Wire Line
+	10250 6250 10400 6250
+Wire Wire Line
+	10400 6250 10550 6250
+Wire Wire Line
+	10550 6250 10550 6150
+Connection ~ 10400 6250
+Text GLabel 10350 1550 3    50   Input ~ 0
+ledinput
+Text GLabel 9400 1750 2    50   Input ~ 0
+mosi1
+Text GLabel 10350 1400 1    50   Input ~ 0
+mosi1
+Wire Wire Line
+	10350 1400 10350 1550
+$Comp
+L Jumper:SolderJumper_3_Open JP2
+U 1 1 5D881F20
+P 7700 5850
+F 0 "JP2" H 7700 6055 50  0000 C CNN
+F 1 "SolderJumper_3_Open" H 7700 5964 50  0000 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm" H 7700 5850 50  0001 C CNN
+F 3 "~" H 7700 5850 50  0001 C CNN
+	1    7700 5850
+	1    0    0    -1  
+$EndComp
+Text GLabel 7500 5950 3    50   Input ~ 0
+uart3_rx
+Text GLabel 7900 5950 3    50   Input ~ 0
+uart1_tx
+Text GLabel 7700 6150 3    50   Input ~ 0
+D+
+Wire Wire Line
+	7700 6000 7700 6150
+Wire Wire Line
+	7900 5850 7900 5950
+Wire Wire Line
+	7500 5850 7500 5950
+Text GLabel 9450 5400 0    50   Input ~ 0
+D+
+Wire Wire Line
+	9650 5350 9450 5350
+Wire Wire Line
+	9450 5450 9650 5450
+Wire Wire Line
+	9450 5350 9450 5450
+$Comp
+L Jumper:SolderJumper_3_Open JP4
+U 1 1 5DA7D2D4
+P 8550 5850
+F 0 "JP4" H 8550 6055 50  0000 C CNN
+F 1 "SolderJumper_3_Open" H 8550 5964 50  0000 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm" H 8550 5850 50  0001 C CNN
+F 3 "~" H 8550 5850 50  0001 C CNN
+	1    8550 5850
+	1    0    0    -1  
+$EndComp
+Text GLabel 8750 5950 3    50   Input ~ 0
+uart1_rx
+Text GLabel 8550 6150 3    50   Input ~ 0
+D-
+Wire Wire Line
+	8550 6000 8550 6150
+Wire Wire Line
+	8750 5850 8750 5950
+Wire Wire Line
+	8350 5850 8350 5950
+Text GLabel 8350 5950 3    50   Input ~ 0
+uart3_tx
+Text GLabel 9450 5200 0    50   Input ~ 0
+D-
+Wire Wire Line
+	9650 5150 9450 5150
+Wire Wire Line
+	9650 5250 9450 5250
+Wire Wire Line
+	9450 5150 9450 5250
+$Comp
+L Jumper:SolderJumper_3_Open JP1
+U 1 1 5DB2D6D8
+P 7700 5000
+F 0 "JP1" H 7700 5205 50  0000 C CNN
+F 1 "SolderJumper_3_Open" H 7700 5114 50  0000 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm" H 7700 5000 50  0001 C CNN
+F 3 "~" H 7700 5000 50  0001 C CNN
+	1    7700 5000
+	1    0    0    -1  
+$EndComp
+Text GLabel 7500 5100 3    50   Input ~ 0
+uart3_rx
+Text GLabel 7900 5100 3    50   Input ~ 0
+uart1_tx
+Text GLabel 7700 5300 3    50   Input ~ 0
+CC
+Wire Wire Line
+	7700 5150 7700 5300
+Wire Wire Line
+	7900 5000 7900 5100
+Wire Wire Line
+	7500 5000 7500 5100
+$Comp
+L Jumper:SolderJumper_3_Open JP3
+U 1 1 5DB2D6E4
+P 8550 5000
+F 0 "JP3" H 8550 5205 50  0000 C CNN
+F 1 "SolderJumper_3_Open" H 8550 5114 50  0000 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm" H 8550 5000 50  0001 C CNN
+F 3 "~" H 8550 5000 50  0001 C CNN
+	1    8550 5000
+	1    0    0    -1  
+$EndComp
+Text GLabel 8750 5100 3    50   Input ~ 0
+uart1_rx
+Text GLabel 8550 5250 3    50   Input ~ 0
+SBU
+Wire Wire Line
+	8750 5000 8750 5100
+Wire Wire Line
+	8350 5000 8350 5100
+Text GLabel 8350 5100 3    50   Input ~ 0
+uart3_tx
+Wire Wire Line
+	8550 5150 8550 5250
+Text GLabel 9450 5800 0    50   Input ~ 0
+CC
+Wire Wire Line
+	9450 5750 9650 5750
+Wire Wire Line
+	9650 5850 9450 5850
+Wire Wire Line
+	9450 5750 9450 5850
+Text GLabel 9450 4900 0    50   Input ~ 0
+SBU
+Wire Wire Line
+	9650 4850 9450 4850
+Wire Wire Line
+	9450 4950 9650 4950
+Wire Wire Line
+	9450 4850 9450 4950
+$Comp
+L power:GND #PWR0123
+U 1 1 5DC1D088
+P 9400 950
+F 0 "#PWR0123" H 9400 700 50  0001 C CNN
+F 1 "GND" V 9405 822 50  0000 R CNN
+F 2 "" H 9400 950 50  0001 C CNN
+F 3 "" H 9400 950 50  0001 C CNN
+	1    9400 950 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0124
+U 1 1 5DC1D633
+P 9400 1050
+F 0 "#PWR0124" H 9400 800 50  0001 C CNN
+F 1 "GND" V 9405 922 50  0000 R CNN
+F 2 "" H 9400 1050 50  0001 C CNN
+F 3 "" H 9400 1050 50  0001 C CNN
+	1    9400 1050
+	0    -1   -1   0   
+$EndComp
+Text GLabel 7900 1850 0    50   Input ~ 0
+column4
+Text GLabel 9400 2250 2    50   Input ~ 0
+row3
+$Comp
+L power:VBUS #PWR0103
+U 1 1 5DD6860D
+P 9650 4650
+F 0 "#PWR0103" H 9650 4500 50  0001 C CNN
+F 1 "VBUS" V 9665 4777 50  0000 L CNN
+F 2 "" H 9650 4650 50  0001 C CNN
+F 3 "" H 9650 4650 50  0001 C CNN
+	1    9650 4650
+	0    -1   -1   0   
+$EndComp
+Text Notes 6800 3750 0    50   ~ 0
+Does keebr support multiple GPIO ports for rows/cols?
+Text GLabel 7900 2450 0    50   Input ~ 0
+row5
+Text GLabel 7900 2550 0    50   Input ~ 0
+row4
+Text GLabel 7900 2350 0    50   Input ~ 0
+column8
+$Comp
+L power:VBUS #PWR0102
+U 1 1 5DD66813
+P 7900 2650
+F 0 "#PWR0102" H 7900 2500 50  0001 C CNN
+F 1 "VBUS" V 7915 2777 50  0000 L CNN
+F 2 "" H 7900 2650 50  0001 C CNN
+F 3 "" H 7900 2650 50  0001 C CNN
+	1    7900 2650
+	0    -1   -1   0   
+$EndComp
+Text GLabel 7900 2250 0    50   Input ~ 0
+row8
+NoConn ~ 7900 1650
+NoConn ~ 7900 1750
 $EndSCHEMATC
